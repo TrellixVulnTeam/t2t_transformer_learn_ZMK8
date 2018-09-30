@@ -1,0 +1,500 @@
+/home/lixiaolong2/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+INFO:tensorflow:Importing user module usr_problem from path /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn
+INFO:tensorflow:Generating problems:
+    my:
+      * my_translate_ende_wmt32k
+INFO:tensorflow:Generating data for my_translate_ende_wmt32k.
+INFO:tensorflow:Skipping compile data, found files:
+/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-compiled-train.lang1
+/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-compiled-train.lang2
+INFO:tensorflow:Found vocab file: /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/vocab.my_translate_ende_wmt32k.32768.subwords
+INFO:tensorflow:Skipping generator because outputs files exists at ['/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00000-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00001-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00002-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00003-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00004-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00005-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00006-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00007-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00008-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00009-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00010-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00011-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00012-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00013-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00014-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00015-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00016-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00017-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00018-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00019-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00020-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00021-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00022-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00023-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00024-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00025-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00026-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00027-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00028-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00029-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00030-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00031-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00032-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00033-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00034-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00035-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00036-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00037-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00038-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00039-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00040-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00041-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00042-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00043-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00044-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00045-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00046-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00047-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00048-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00049-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00050-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00051-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00052-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00053-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00054-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00055-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00056-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00057-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00058-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00059-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00060-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00061-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00062-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00063-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00064-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00065-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00066-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00067-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00068-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00069-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00070-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00071-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00072-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00073-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00074-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00075-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00076-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00077-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00078-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00079-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00080-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00081-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00082-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00083-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00084-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00085-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00086-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00087-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00088-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00089-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00090-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00091-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00092-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00093-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00094-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00095-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00096-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00097-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00098-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00099-of-00100']
+INFO:tensorflow:Skipping compile data, found files:
+/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-compiled-dev.lang1
+/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-compiled-dev.lang2
+INFO:tensorflow:Found vocab file: /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/vocab.my_translate_ende_wmt32k.32768.subwords
+INFO:tensorflow:Skipping generator because outputs files exists at ['/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-dev-00000-of-00001']
+INFO:tensorflow:Skipping shuffle because output files exist
+/home/lixiaolong2/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+INFO:tensorflow:Importing user module usr_problem from path /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn
+WARNING:tensorflow:From /home/lixiaolong2/anaconda3/lib/python3.6/site-packages/tensor2tensor/utils/trainer_lib.py:198: RunConfig.__init__ (from tensorflow.contrib.learn.python.learn.estimators.run_config) is deprecated and will be removed in a future version.
+Instructions for updating:
+When switching to tf.estimator.Estimator, use tf.estimator.RunConfig instead.
+INFO:tensorflow:schedule=continuous_train_and_eval
+INFO:tensorflow:worker_gpu=1
+INFO:tensorflow:sync=False
+WARNING:tensorflow:Schedule=continuous_train_and_eval. Assuming that training is running on a single machine.
+INFO:tensorflow:datashard_devices: ['gpu:0']
+INFO:tensorflow:caching_devices: None
+INFO:tensorflow:ps_devices: ['gpu:0']
+INFO:tensorflow:Using config: {'_task_type': None, '_task_id': 0, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7f68fa67c7f0>, '_master': '', '_num_ps_replicas': 0, '_num_worker_replicas': 0, '_environment': 'local', '_is_chief': True, '_evaluation_master': '', '_train_distribute': None, '_device_fn': None, '_tf_config': gpu_options {
+  per_process_gpu_memory_fraction: 1.0
+}
+, '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_secs': None, '_log_step_count_steps': 100, '_session_config': gpu_options {
+  per_process_gpu_memory_fraction: 0.95
+}
+allow_soft_placement: true
+graph_options {
+  optimizer_options {
+  }
+}
+, '_save_checkpoints_steps': 1000, '_keep_checkpoint_max': 20, '_keep_checkpoint_every_n_hours': 10000, '_model_dir': '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/transformer-transformer_base_single_gpu', 'use_tpu': False, 't2t_device_info': {'num_async_replicas': 1}, 'data_parallelism': <tensor2tensor.utils.expert_utils.Parallelism object at 0x7f68fa68def0>}
+WARNING:tensorflow:Estimator's model_fn (<function T2TModel.make_estimator_model_fn.<locals>.wrapping_model_fn at 0x7f68f9d91158>) includes params argument, but params are not passed to Estimator.
+WARNING:tensorflow:ValidationMonitor only works with --schedule=train_and_evaluate
+INFO:tensorflow:Running training and evaluation locally (non-distributed).
+INFO:tensorflow:Start train and evaluate loop. The evaluate will happen after every checkpoint. Checkpoint frequency is determined based on RunConfig arguments: save_checkpoints_steps 1000 or save_checkpoints_secs None.
+INFO:tensorflow:Reading data files from /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-train*
+INFO:tensorflow:partition: 0 num_data_files: 100
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Setting T2TModel mode to 'train'
+INFO:tensorflow:Using variable initializer: uniform_unit_scaling
+INFO:tensorflow:Transforming feature 'inputs' with symbol_modality_33510_512.bottom
+WARNING:tensorflow:From /home/lixiaolong2/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/function.py:986: calling Graph.create_op (from tensorflow.python.framework.ops) with compute_shapes is deprecated and will be removed in a future version.
+Instructions for updating:
+Shapes are always computed; don't use the compute_shapes as it has no effect.
+INFO:tensorflow:Transforming 'targets' with symbol_modality_33510_512.targets_bottom
+INFO:tensorflow:Building model body
+INFO:tensorflow:Transforming body output with symbol_modality_33510_512.top
+INFO:tensorflow:Base learning rate: 2.000000
+INFO:tensorflow:Trainable Variables Total size: 61277184
+INFO:tensorflow:Using optimizer Adam
+/home/lixiaolong2/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/gradients_impl.py:108: UserWarning: Converting sparse IndexedSlices to a dense Tensor of unknown shape. This may consume a large amount of memory.
+  "Converting sparse IndexedSlices to a dense Tensor of unknown shape. "
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+2018-09-30 10:20:05.796760: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-09-30 10:20:05.904783: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:897] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-09-30 10:20:05.905309: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1405] Found device 0 with properties: 
+name: GeForce GTX 1060 6GB major: 6 minor: 1 memoryClockRate(GHz): 1.7085
+pciBusID: 0000:01:00.0
+totalMemory: 5.94GiB freeMemory: 5.54GiB
+2018-09-30 10:20:05.905390: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2018-09-30 10:20:06.108831: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-09-30 10:20:06.108947: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2018-09-30 10:20:06.109038: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2018-09-30 10:20:06.109327: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 5774 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1060 6GB, pci bus id: 0000:01:00.0, compute capability: 6.1)
+2018-09-30 10:20:06.110216: E tensorflow/stream_executor/cuda/cuda_driver.cc:903] failed to allocate 5.64G (6054893824 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+INFO:tensorflow:Restoring parameters from /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/transformer-transformer_base_single_gpu/model.ckpt-144000
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 144000 into /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/transformer-transformer_base_single_gpu/model.ckpt.
+INFO:tensorflow:loss = 1.7145666, step = 144000
+INFO:tensorflow:global_step/sec: 2.1968
+INFO:tensorflow:loss = 1.2184666, step = 144100 (45.521 sec)
+INFO:tensorflow:global_step/sec: 2.70408
+INFO:tensorflow:loss = 2.1704988, step = 144200 (36.981 sec)
+INFO:tensorflow:global_step/sec: 2.67654
+INFO:tensorflow:loss = 1.9410286, step = 144300 (37.362 sec)
+INFO:tensorflow:global_step/sec: 2.67323
+INFO:tensorflow:loss = 2.651526, step = 144400 (37.408 sec)
+INFO:tensorflow:global_step/sec: 2.64792
+INFO:tensorflow:loss = 2.1893995, step = 144500 (37.766 sec)
+INFO:tensorflow:global_step/sec: 2.65525
+INFO:tensorflow:loss = 1.6806325, step = 144600 (37.661 sec)
+INFO:tensorflow:global_step/sec: 2.67139
+INFO:tensorflow:loss = 1.8277034, step = 144700 (37.434 sec)
+INFO:tensorflow:global_step/sec: 2.63581
+INFO:tensorflow:loss = 2.0445018, step = 144800 (37.939 sec)
+INFO:tensorflow:global_step/sec: 2.64155
+INFO:tensorflow:loss = 1.8516573, step = 144900 (37.856 sec)
+INFO:tensorflow:Saving checkpoints for 145000 into /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/transformer-transformer_base_single_gpu/model.ckpt.
+INFO:tensorflow:Reading data files from /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-dev*
+INFO:tensorflow:partition: 0 num_data_files: 1
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Setting T2TModel mode to 'eval'
+INFO:tensorflow:Setting hparams.dropout to 0.0
+INFO:tensorflow:Setting hparams.label_smoothing to 0.0
+INFO:tensorflow:Setting hparams.layer_prepostprocess_dropout to 0.0
+INFO:tensorflow:Setting hparams.symbol_dropout to 0.0
+INFO:tensorflow:Setting hparams.attention_dropout to 0.0
+INFO:tensorflow:Setting hparams.relu_dropout to 0.0
+INFO:tensorflow:Using variable initializer: uniform_unit_scaling
+INFO:tensorflow:Transforming feature 'inputs' with symbol_modality_33510_512.bottom
+INFO:tensorflow:Transforming 'targets' with symbol_modality_33510_512.targets_bottom
+INFO:tensorflow:Building model body
+INFO:tensorflow:Transforming body output with symbol_modality_33510_512.top
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-09-30-02:27:16
+INFO:tensorflow:Graph was finalized.
+2018-09-30 10:27:17.043162: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2018-09-30 10:27:17.043278: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-09-30 10:27:17.043347: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2018-09-30 10:27:17.043427: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2018-09-30 10:27:17.043592: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 5774 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1060 6GB, pci bus id: 0000:01:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/transformer-transformer_base_single_gpu/model.ckpt-145000
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Evaluation [10/100]
+INFO:tensorflow:Evaluation [20/100]
+INFO:tensorflow:Evaluation [30/100]
+INFO:tensorflow:Evaluation [40/100]
+INFO:tensorflow:Evaluation [50/100]
+INFO:tensorflow:Evaluation [60/100]
+INFO:tensorflow:Evaluation [70/100]
+INFO:tensorflow:Finished evaluation at 2018-09-30-02:27:39
+INFO:tensorflow:Saving dict for global step 145000: global_step = 145000, loss = 1.8694376, metrics-my_translate_ende_wmt32k/targets/accuracy = 0.6431793, metrics-my_translate_ende_wmt32k/targets/accuracy_per_sequence = 0.012666667, metrics-my_translate_ende_wmt32k/targets/accuracy_top5 = 0.82817775, metrics-my_translate_ende_wmt32k/targets/approx_bleu_score = 0.3478547, metrics-my_translate_ende_wmt32k/targets/neg_log_perplexity = -1.867215, metrics-my_translate_ende_wmt32k/targets/rouge_2_fscore = 0.4247377, metrics-my_translate_ende_wmt32k/targets/rouge_L_fscore = 0.61765367
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 145000: /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/transformer-transformer_base_single_gpu/model.ckpt-145000
+INFO:tensorflow:global_step/sec: 1.32615
+INFO:tensorflow:loss = 1.1460533, step = 145000 (75.406 sec)
+INFO:tensorflow:global_step/sec: 2.67042
+INFO:tensorflow:loss = 2.0485225, step = 145100 (37.447 sec)
+INFO:tensorflow:global_step/sec: 2.65632
+INFO:tensorflow:loss = 1.952366, step = 145200 (37.646 sec)
+INFO:tensorflow:global_step/sec: 2.65744
+INFO:tensorflow:loss = 1.9386042, step = 145300 (37.630 sec)
+INFO:tensorflow:global_step/sec: 2.63427
+INFO:tensorflow:loss = 2.0652194, step = 145400 (37.962 sec)
+INFO:tensorflow:global_step/sec: 2.57676
+INFO:tensorflow:loss = 2.019039, step = 145500 (38.808 sec)
+INFO:tensorflow:global_step/sec: 2.62899
+INFO:tensorflow:loss = 1.9414339, step = 145600 (38.037 sec)
+INFO:tensorflow:global_step/sec: 2.6482
+INFO:tensorflow:loss = 2.261119, step = 145700 (37.762 sec)
+INFO:tensorflow:global_step/sec: 2.64708
+INFO:tensorflow:loss = 1.5838765, step = 145800 (37.778 sec)
+INFO:tensorflow:global_step/sec: 2.63196
+INFO:tensorflow:loss = 1.95948, step = 145900 (37.994 sec)
+INFO:tensorflow:Saving checkpoints for 146000 into /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/transformer-transformer_base_single_gpu/model.ckpt.
+INFO:tensorflow:Skip the current checkpoint eval due to throttle secs (600 secs).
+INFO:tensorflow:global_step/sec: 2.31486
+INFO:tensorflow:loss = 1.8428868, step = 146000 (43.199 sec)
+INFO:tensorflow:global_step/sec: 2.67785
+INFO:tensorflow:loss = 2.6725273, step = 146100 (37.343 sec)
+INFO:tensorflow:global_step/sec: 2.65643
+INFO:tensorflow:loss = 2.7814565, step = 146200 (37.645 sec)
+INFO:tensorflow:global_step/sec: 2.61769
+INFO:tensorflow:loss = 1.7869298, step = 146300 (38.201 sec)
+INFO:tensorflow:global_step/sec: 2.53945
+INFO:tensorflow:loss = 1.9652219, step = 146400 (39.379 sec)
+INFO:tensorflow:global_step/sec: 2.56302
+INFO:tensorflow:loss = 1.8400679, step = 146500 (39.016 sec)
+INFO:tensorflow:global_step/sec: 2.55965
+INFO:tensorflow:loss = 2.4563866, step = 146600 (39.068 sec)
+INFO:tensorflow:global_step/sec: 2.60682
+INFO:tensorflow:loss = 2.5980275, step = 146700 (38.361 sec)
+INFO:tensorflow:global_step/sec: 2.57927
+INFO:tensorflow:loss = 2.0562532, step = 146800 (38.770 sec)
+INFO:tensorflow:global_step/sec: 2.64143
+INFO:tensorflow:loss = 2.107443, step = 146900 (37.859 sec)
+usr_script/test.sh: 行 30: 18494 已终止               t2t-trainer --data_dir=$DATA_DIR --problem=$PROBLEM --model=$MODEL --hparams_set=$HPARAMS --output_dir=$TRAIN_DIR --t2t_usr_dir=$USR_DIR
+/home/lixiaolong2/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Traceback (most recent call last):
+  File "/home/lixiaolong2/anaconda3/bin/t2t-decoder", line 17, in <module>
+    tf.app.run()
+  File "/home/lixiaolong2/anaconda3/lib/python3.6/site-packages/tensorflow/python/platform/app.py", line 125, in run
+    _sys.exit(main(argv))
+  File "/home/lixiaolong2/anaconda3/bin/t2t-decoder", line 12, in main
+    t2t_decoder.main(argv)
+  File "/home/lixiaolong2/anaconda3/lib/python3.6/site-packages/tensor2tensor/bin/t2t_decoder.py", line 180, in main
+    hp = create_hparams()
+  File "/home/lixiaolong2/anaconda3/lib/python3.6/site-packages/tensor2tensor/bin/t2t_decoder.py", line 67, in create_hparams
+    problem_name=FLAGS.problem)
+  File "/home/lixiaolong2/anaconda3/lib/python3.6/site-packages/tensor2tensor/utils/trainer_lib.py", line 93, in create_hparams
+    add_problem_hparams(hparams, problem_name)
+  File "/home/lixiaolong2/anaconda3/lib/python3.6/site-packages/tensor2tensor/utils/trainer_lib.py", line 590, in add_problem_hparams
+    problem = registry.problem(problem_name)
+  File "/home/lixiaolong2/anaconda3/lib/python3.6/site-packages/tensor2tensor/utils/registry.py", line 279, in problem
+    raise LookupError(error_msg)
+LookupError: my_translate_ende_wmt32k not in the set of supported problems:
+  * algorithmic_addition_binary40
+  * algorithmic_addition_decimal40
+  * algorithmic_cipher_shift200
+  * algorithmic_cipher_shift5
+  * algorithmic_cipher_vigenere200
+  * algorithmic_cipher_vigenere5
+  * algorithmic_identity_binary40
+  * algorithmic_identity_decimal40
+  * algorithmic_multiplication_binary40
+  * algorithmic_multiplication_decimal40
+  * algorithmic_reverse_binary40
+  * algorithmic_reverse_binary40_test
+  * algorithmic_reverse_decimal40
+  * algorithmic_reverse_nlplike32k
+  * algorithmic_reverse_nlplike8k
+  * algorithmic_shift_decimal40
+  * algorithmic_sort_problem
+  * audio_timit_characters_tune
+  * audio_timit_tokens8k_test
+  * audio_timit_tokens8k_tune
+  * babi_qa_concat_all_tasks_10k
+  * babi_qa_concat_all_tasks_1k
+  * babi_qa_concat_task10_10k
+  * babi_qa_concat_task10_1k
+  * babi_qa_concat_task11_10k
+  * babi_qa_concat_task11_1k
+  * babi_qa_concat_task12_10k
+  * babi_qa_concat_task12_1k
+  * babi_qa_concat_task13_10k
+  * babi_qa_concat_task13_1k
+  * babi_qa_concat_task14_10k
+  * babi_qa_concat_task14_1k
+  * babi_qa_concat_task15_10k
+  * babi_qa_concat_task15_1k
+  * babi_qa_concat_task16_10k
+  * babi_qa_concat_task16_1k
+  * babi_qa_concat_task17_10k
+  * babi_qa_concat_task17_1k
+  * babi_qa_concat_task18_10k
+  * babi_qa_concat_task18_1k
+  * babi_qa_concat_task19_10k
+  * babi_qa_concat_task19_1k
+  * babi_qa_concat_task1_10k
+  * babi_qa_concat_task1_1k
+  * babi_qa_concat_task20_10k
+  * babi_qa_concat_task20_1k
+  * babi_qa_concat_task2_10k
+  * babi_qa_concat_task2_1k
+  * babi_qa_concat_task3_10k
+  * babi_qa_concat_task3_1k
+  * babi_qa_concat_task4_10k
+  * babi_qa_concat_task4_1k
+  * babi_qa_concat_task5_10k
+  * babi_qa_concat_task5_1k
+  * babi_qa_concat_task6_10k
+  * babi_qa_concat_task6_1k
+  * babi_qa_concat_task7_10k
+  * babi_qa_concat_task7_1k
+  * babi_qa_concat_task8_10k
+  * babi_qa_concat_task8_1k
+  * babi_qa_concat_task9_10k
+  * babi_qa_concat_task9_1k
+  * cola
+  * cola_characters
+  * common_voice
+  * common_voice_clean
+  * common_voice_noisy
+  * common_voice_train_full_test_clean
+  * genomics_expression_cage10
+  * genomics_expression_gm12878
+  * genomics_expression_l262k
+  * github_function_docstring
+  * gym_boxing-v0_random
+  * gym_boxing-v4_random
+  * gym_boxing_deterministic-v0_random
+  * gym_boxing_deterministic-v4_random
+  * gym_boxing_no_frameskip-v0_random
+  * gym_boxing_no_frameskip-v4_random
+  * gym_discrete_problem_with_agent_on_boxing-v0
+  * gym_discrete_problem_with_agent_on_boxing-v4
+  * gym_discrete_problem_with_agent_on_boxing_deterministic-v0
+  * gym_discrete_problem_with_agent_on_boxing_deterministic-v4
+  * gym_discrete_problem_with_agent_on_boxing_no_frameskip-v0
+  * gym_discrete_problem_with_agent_on_boxing_no_frameskip-v4
+  * gym_discrete_problem_with_agent_on_pong-v0
+  * gym_discrete_problem_with_agent_on_pong-v4
+  * gym_discrete_problem_with_agent_on_pong_deterministic-v0
+  * gym_discrete_problem_with_agent_on_pong_deterministic-v4
+  * gym_discrete_problem_with_agent_on_pong_no_frameskip-v0
+  * gym_discrete_problem_with_agent_on_pong_no_frameskip-v4
+  * gym_discrete_problem_with_agent_on_wrapped_full_pong
+  * gym_discrete_problem_with_agent_on_wrapped_full_pong_autoencoded
+  * gym_discrete_problem_with_agent_on_wrapped_full_pong_with_autoencoder
+  * gym_pong-v0_random
+  * gym_pong-v4_random
+  * gym_pong_deterministic-v0_random
+  * gym_pong_deterministic-v4_random
+  * gym_pong_no_frameskip-v0_random
+  * gym_pong_no_frameskip-v4_random
+  * gym_simulated_discrete_problem_with_agent_on_boxing-v0
+  * gym_simulated_discrete_problem_with_agent_on_boxing-v4
+  * gym_simulated_discrete_problem_with_agent_on_boxing_deterministic-v0
+  * gym_simulated_discrete_problem_with_agent_on_boxing_deterministic-v4
+  * gym_simulated_discrete_problem_with_agent_on_boxing_no_frameskip-v0
+  * gym_simulated_discrete_problem_with_agent_on_boxing_no_frameskip-v4
+  * gym_simulated_discrete_problem_with_agent_on_pong-v0
+  * gym_simulated_discrete_problem_with_agent_on_pong-v4
+  * gym_simulated_discrete_problem_with_agent_on_pong_deterministic-v0
+  * gym_simulated_discrete_problem_with_agent_on_pong_deterministic-v4
+  * gym_simulated_discrete_problem_with_agent_on_pong_no_frameskip-v0
+  * gym_simulated_discrete_problem_with_agent_on_pong_no_frameskip-v4
+  * gym_simulated_discrete_problem_with_agent_on_wrapped_full_pong
+  * gym_simulated_discrete_problem_with_agent_on_wrapped_full_pong_autoencoded
+  * gym_wrapped_full_pong_random
+  * image_celeba
+  * image_celeba32
+  * image_celeba64
+  * image_celeba_multi_resolution
+  * image_celebahq128
+  * image_celebahq128_dmol
+  * image_celebahq256
+  * image_celebahq256_dmol
+  * image_cifar10
+  * image_cifar100
+  * image_cifar100_plain
+  * image_cifar100_plain8
+  * image_cifar100_plain_gen
+  * image_cifar100_tune
+  * image_cifar10_plain
+  * image_cifar10_plain8
+  * image_cifar10_plain_gen
+  * image_cifar10_plain_gen_dmol
+  * image_cifar10_plain_random_shift
+  * image_cifar10_tune
+  * image_cifar20
+  * image_cifar20_plain
+  * image_cifar20_plain8
+  * image_cifar20_plain_gen
+  * image_cifar20_tune
+  * image_fashion_mnist
+  * image_fsns
+  * image_imagenet
+  * image_imagenet224
+  * image_imagenet32
+  * image_imagenet32_gen
+  * image_imagenet32_small
+  * image_imagenet64
+  * image_imagenet64_gen
+  * image_imagenet_multi_resolution_gen
+  * image_lsun_bedrooms
+  * image_mnist
+  * image_mnist_tune
+  * image_ms_coco_characters
+  * image_ms_coco_tokens32k
+  * image_text_ms_coco
+  * image_text_ms_coco_multi_resolution
+  * image_vqav2_rcnn_feature_tokens10k_labels3k
+  * image_vqav2_tokens10k_labels3k
+  * img2img_allen_brain
+  * img2img_allen_brain_dim16to16_paint1
+  * img2img_allen_brain_dim48to64
+  * img2img_allen_brain_dim8to32
+  * img2img_celeba
+  * img2img_celeba64
+  * img2img_cifar10
+  * img2img_cifar100
+  * img2img_imagenet
+  * lambada_lm
+  * lambada_lm_control
+  * lambada_rc
+  * lambada_rc_control
+  * languagemodel_lm1b32k
+  * languagemodel_lm1b32k_packed
+  * languagemodel_lm1b8k
+  * languagemodel_lm1b8k_packed
+  * languagemodel_lm1b_characters
+  * languagemodel_lm1b_characters_packed
+  * languagemodel_lm1b_multi_nli
+  * languagemodel_lm1b_multi_nli_subwords
+  * languagemodel_lm1b_sentiment_imdb
+  * languagemodel_ptb10k
+  * languagemodel_ptb_characters
+  * languagemodel_wiki_noref_v128k_l1k
+  * languagemodel_wiki_noref_v32k_l1k
+  * languagemodel_wiki_noref_v8k_l16k
+  * languagemodel_wiki_noref_v8k_l1k
+  * languagemodel_wiki_scramble_l128
+  * languagemodel_wiki_scramble_l1k
+  * languagemodel_wiki_xml_v8k_l1k
+  * languagemodel_wiki_xml_v8k_l4k
+  * languagemodel_wikitext103
+  * languagemodel_wikitext103_characters
+  * librispeech
+  * librispeech_clean
+  * librispeech_clean_small
+  * librispeech_noisy
+  * librispeech_train_full_test_clean
+  * msr_paraphrase_corpus
+  * msr_paraphrase_corpus_characters
+  * multi_nli
+  * multi_nli_characters
+  * multi_nli_shared_vocab
+  * ocr_test
+  * paraphrase_generation_ms_coco_problem1d
+  * paraphrase_generation_ms_coco_problem1d_characters
+  * paraphrase_generation_ms_coco_problem2d
+  * paraphrase_generation_ms_coco_problem2d_characters
+  * parsing_english_ptb16k
+  * parsing_english_ptb8k
+  * parsing_icelandic16k
+  * program_search_algolisp
+  * programming_desc2code_cpp
+  * programming_desc2code_py
+  * question_nli
+  * question_nli_characters
+  * quora_question_pairs
+  * quora_question_pairs_characters
+  * rte
+  * rte_characters
+  * sentiment_imdb
+  * sentiment_imdb_characters
+  * sentiment_sst_binary
+  * sentiment_sst_binary_characters
+  * squad
+  * squad_concat
+  * squad_concat_positioned
+  * stanford_nli
+  * stanford_nli_characters
+  * stanford_nli_shared_vocab
+  * style_transfer_modern_to_shakespeare
+  * style_transfer_modern_to_shakespeare_characters
+  * style_transfer_shakespeare_to_modern
+  * style_transfer_shakespeare_to_modern_characters
+  * summarize_cnn_dailymail32k
+  * sva_language_modeling
+  * sva_number_prediction
+  * text2text_copyable_tokens
+  * text2text_tmpdir
+  * text2text_tmpdir_tokens
+  * timeseries_synthetic_data_series10_samples100k
+  * timeseries_toy_problem
+  * tiny_algo
+  * translate_encs_wmt32k
+  * translate_encs_wmt_characters
+  * translate_ende_wmt32k
+  * translate_ende_wmt32k_packed
+  * translate_ende_wmt8k
+  * translate_ende_wmt8k_packed
+  * translate_ende_wmt_bpe32k
+  * translate_ende_wmt_characters
+  * translate_enet_wmt32k
+  * translate_enet_wmt_characters
+  * translate_enfr_wmt32k
+  * translate_enfr_wmt32k_packed
+  * translate_enfr_wmt8k
+  * translate_enfr_wmt_characters
+  * translate_enfr_wmt_small32k
+  * translate_enfr_wmt_small8k
+  * translate_enfr_wmt_small_characters
+  * translate_enid_iwslt32k
+  * translate_enmk_setimes32k
+  * translate_enmk_setimes_characters
+  * translate_envi_iwslt32k
+  * translate_enzh_wmt32k
+  * translate_enzh_wmt8k
+  * video_bair_robot_pushing
+  * video_bair_robot_pushing_with_actions
+  * video_google_robot_pushing
+  * video_stochastic_shapes10k
+  * video_twentybn
+  * wikisum_commoncrawl
+  * wikisum_commoncrawl_lead_section
+  * wikisum_web
+  * wikisum_web_lead_section
+  * winograd_nli
+  * winograd_nli_characters
+  * wsj_parsing
+cat: translation.en: 没有那个文件或目录
+/home/lixiaolong2/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Traceback (most recent call last):
+  File "/home/lixiaolong2/anaconda3/bin/t2t-bleu", line 18, in <module>
+    tf.app.run()
+  File "/home/lixiaolong2/anaconda3/lib/python3.6/site-packages/tensorflow/python/platform/app.py", line 125, in run
+    _sys.exit(main(argv))
+  File "/home/lixiaolong2/anaconda3/bin/t2t-bleu", line 12, in main
+    t2t_bleu.main(argv)
+  File "/home/lixiaolong2/anaconda3/lib/python3.6/site-packages/tensor2tensor/bin/t2t_bleu.py", line 98, in main
+    case_sensitive=False)
+  File "/home/lixiaolong2/anaconda3/lib/python3.6/site-packages/tensor2tensor/utils/bleu_hook.py", line 206, in bleu_wrapper
+    tf.gfile.Open(hyp_filename, "r").read()).split("\n")
+  File "/home/lixiaolong2/anaconda3/lib/python3.6/site-packages/tensorflow/python/lib/io/file_io.py", line 125, in read
+    self._preread_check()
+  File "/home/lixiaolong2/anaconda3/lib/python3.6/site-packages/tensorflow/python/lib/io/file_io.py", line 85, in _preread_check
+    compat.as_bytes(self.__name), 1024 * 512, status)
+  File "/home/lixiaolong2/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/errors_impl.py", line 519, in __exit__
+    c_api.TF_GetCode(self.status.status))
+tensorflow.python.framework.errors_impl.NotFoundError: translation.en; No such file or directory
