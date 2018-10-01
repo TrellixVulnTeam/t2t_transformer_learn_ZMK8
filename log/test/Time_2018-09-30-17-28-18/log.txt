@@ -1,0 +1,1099 @@
+/home/lixiaolong2/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+INFO:tensorflow:Importing user module usr_dir from path /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn
+INFO:tensorflow:Generating problems:
+    my:
+      * my_translate_ende_wmt32k
+INFO:tensorflow:Generating data for my_translate_ende_wmt32k.
+INFO:tensorflow:Skipping compile data, found files:
+/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-compiled-train.lang1
+/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-compiled-train.lang2
+INFO:tensorflow:Found vocab file: /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/vocab.my_translate_ende_wmt32k.32768.subwords
+INFO:tensorflow:Skipping generator because outputs files exists at ['/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00000-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00001-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00002-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00003-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00004-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00005-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00006-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00007-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00008-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00009-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00010-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00011-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00012-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00013-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00014-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00015-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00016-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00017-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00018-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00019-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00020-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00021-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00022-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00023-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00024-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00025-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00026-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00027-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00028-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00029-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00030-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00031-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00032-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00033-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00034-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00035-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00036-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00037-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00038-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00039-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00040-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00041-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00042-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00043-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00044-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00045-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00046-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00047-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00048-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00049-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00050-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00051-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00052-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00053-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00054-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00055-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00056-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00057-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00058-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00059-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00060-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00061-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00062-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00063-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00064-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00065-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00066-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00067-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00068-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00069-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00070-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00071-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00072-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00073-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00074-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00075-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00076-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00077-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00078-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00079-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00080-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00081-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00082-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00083-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00084-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00085-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00086-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00087-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00088-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00089-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00090-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00091-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00092-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00093-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00094-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00095-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00096-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00097-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00098-of-00100', '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-train-00099-of-00100']
+INFO:tensorflow:Skipping compile data, found files:
+/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-compiled-dev.lang1
+/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-compiled-dev.lang2
+INFO:tensorflow:Found vocab file: /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/vocab.my_translate_ende_wmt32k.32768.subwords
+INFO:tensorflow:Skipping generator because outputs files exists at ['/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-unshuffled-dev-00000-of-00001']
+INFO:tensorflow:Skipping shuffle because output files exist
+/home/lixiaolong2/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+INFO:tensorflow:Importing user module usr_dir from path /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn
+WARNING:tensorflow:From /home/lixiaolong2/anaconda3/lib/python3.6/site-packages/tensor2tensor/utils/trainer_lib.py:198: RunConfig.__init__ (from tensorflow.contrib.learn.python.learn.estimators.run_config) is deprecated and will be removed in a future version.
+Instructions for updating:
+When switching to tf.estimator.Estimator, use tf.estimator.RunConfig instead.
+INFO:tensorflow:schedule=continuous_train_and_eval
+INFO:tensorflow:worker_gpu=1
+INFO:tensorflow:sync=False
+WARNING:tensorflow:Schedule=continuous_train_and_eval. Assuming that training is running on a single machine.
+INFO:tensorflow:datashard_devices: ['gpu:0']
+INFO:tensorflow:caching_devices: None
+INFO:tensorflow:ps_devices: ['gpu:0']
+INFO:tensorflow:Using config: {'_task_type': None, '_task_id': 0, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7faa26ce1f28>, '_master': '', '_num_ps_replicas': 0, '_num_worker_replicas': 0, '_environment': 'local', '_is_chief': True, '_evaluation_master': '', '_train_distribute': None, '_device_fn': None, '_tf_config': gpu_options {
+  per_process_gpu_memory_fraction: 1.0
+}
+, '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_secs': None, '_log_step_count_steps': 100, '_session_config': gpu_options {
+  per_process_gpu_memory_fraction: 0.95
+}
+allow_soft_placement: true
+graph_options {
+  optimizer_options {
+  }
+}
+, '_save_checkpoints_steps': 1000, '_keep_checkpoint_max': 20, '_keep_checkpoint_every_n_hours': 10000, '_model_dir': '/home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu', 'use_tpu': False, 't2t_device_info': {'num_async_replicas': 1}, 'data_parallelism': <tensor2tensor.utils.expert_utils.Parallelism object at 0x7faa247cdf60>}
+WARNING:tensorflow:Estimator's model_fn (<function T2TModel.make_estimator_model_fn.<locals>.wrapping_model_fn at 0x7faa23ed9f28>) includes params argument, but params are not passed to Estimator.
+WARNING:tensorflow:ValidationMonitor only works with --schedule=train_and_evaluate
+INFO:tensorflow:Running training and evaluation locally (non-distributed).
+INFO:tensorflow:Start train and evaluate loop. The evaluate will happen after every checkpoint. Checkpoint frequency is determined based on RunConfig arguments: save_checkpoints_steps 1000 or save_checkpoints_secs None.
+INFO:tensorflow:Reading data files from /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-train*
+INFO:tensorflow:partition: 0 num_data_files: 100
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Setting T2TModel mode to 'train'
+INFO:tensorflow:Using variable initializer: uniform_unit_scaling
+INFO:tensorflow:Transforming feature 'inputs' with symbol_modality_33510_512.bottom
+WARNING:tensorflow:From /home/lixiaolong2/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/function.py:986: calling Graph.create_op (from tensorflow.python.framework.ops) with compute_shapes is deprecated and will be removed in a future version.
+Instructions for updating:
+Shapes are always computed; don't use the compute_shapes as it has no effect.
+INFO:tensorflow:Transforming 'targets' with symbol_modality_33510_512.targets_bottom
+INFO:tensorflow:Building model body
+INFO:tensorflow:Transforming body output with symbol_modality_33510_512.top
+INFO:tensorflow:Base learning rate: 2.000000
+INFO:tensorflow:Trainable Variables Total size: 61277184
+INFO:tensorflow:Using optimizer Adam
+/home/lixiaolong2/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/gradients_impl.py:108: UserWarning: Converting sparse IndexedSlices to a dense Tensor of unknown shape. This may consume a large amount of memory.
+  "Converting sparse IndexedSlices to a dense Tensor of unknown shape. "
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+2018-09-30 17:28:53.985934: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-09-30 17:28:54.089558: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:897] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-09-30 17:28:54.090049: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1405] Found device 0 with properties: 
+name: GeForce GTX 1060 6GB major: 6 minor: 1 memoryClockRate(GHz): 1.7085
+pciBusID: 0000:01:00.0
+totalMemory: 5.94GiB freeMemory: 5.53GiB
+2018-09-30 17:28:54.090161: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2018-09-30 17:28:55.192466: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-09-30 17:28:55.193039: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2018-09-30 17:28:55.193547: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2018-09-30 17:28:55.194825: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 5774 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1060 6GB, pci bus id: 0000:01:00.0, compute capability: 6.1)
+2018-09-30 17:28:55.197718: E tensorflow/stream_executor/cuda/cuda_driver.cc:903] failed to allocate 5.64G (6054893824 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+INFO:tensorflow:Restoring parameters from /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt-30000
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 30000 into /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt.
+INFO:tensorflow:loss = 2.1485882, step = 30000
+INFO:tensorflow:global_step/sec: 2.12376
+INFO:tensorflow:loss = 2.232368, step = 30100 (47.087 sec)
+INFO:tensorflow:global_step/sec: 2.70977
+INFO:tensorflow:loss = 2.1185412, step = 30200 (36.903 sec)
+INFO:tensorflow:global_step/sec: 2.62845
+INFO:tensorflow:loss = 2.6810002, step = 30300 (38.045 sec)
+INFO:tensorflow:global_step/sec: 2.5811
+INFO:tensorflow:loss = 2.235284, step = 30400 (38.743 sec)
+INFO:tensorflow:global_step/sec: 2.67381
+INFO:tensorflow:loss = 2.3247073, step = 30500 (37.400 sec)
+INFO:tensorflow:global_step/sec: 2.65056
+INFO:tensorflow:loss = 2.4119542, step = 30600 (37.728 sec)
+INFO:tensorflow:global_step/sec: 2.60083
+INFO:tensorflow:loss = 2.2434087, step = 30700 (38.449 sec)
+INFO:tensorflow:global_step/sec: 2.61985
+INFO:tensorflow:loss = 2.1435564, step = 30800 (38.170 sec)
+INFO:tensorflow:global_step/sec: 2.54596
+INFO:tensorflow:loss = 2.6498923, step = 30900 (39.278 sec)
+INFO:tensorflow:Saving checkpoints for 31000 into /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt.
+INFO:tensorflow:Reading data files from /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-dev*
+INFO:tensorflow:partition: 0 num_data_files: 1
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Setting T2TModel mode to 'eval'
+INFO:tensorflow:Setting hparams.dropout to 0.0
+INFO:tensorflow:Setting hparams.label_smoothing to 0.0
+INFO:tensorflow:Setting hparams.layer_prepostprocess_dropout to 0.0
+INFO:tensorflow:Setting hparams.symbol_dropout to 0.0
+INFO:tensorflow:Setting hparams.attention_dropout to 0.0
+INFO:tensorflow:Setting hparams.relu_dropout to 0.0
+INFO:tensorflow:Using variable initializer: uniform_unit_scaling
+INFO:tensorflow:Transforming feature 'inputs' with symbol_modality_33510_512.bottom
+INFO:tensorflow:Transforming 'targets' with symbol_modality_33510_512.targets_bottom
+INFO:tensorflow:Building model body
+INFO:tensorflow:Transforming body output with symbol_modality_33510_512.top
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-09-30-09:36:24
+INFO:tensorflow:Graph was finalized.
+2018-09-30 17:36:24.942407: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2018-09-30 17:36:24.942521: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-09-30 17:36:24.942585: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2018-09-30 17:36:24.942652: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2018-09-30 17:36:24.942817: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 5774 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1060 6GB, pci bus id: 0000:01:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt-31000
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Evaluation [10/100]
+INFO:tensorflow:Evaluation [20/100]
+INFO:tensorflow:Evaluation [30/100]
+INFO:tensorflow:Evaluation [40/100]
+INFO:tensorflow:Evaluation [50/100]
+INFO:tensorflow:Evaluation [60/100]
+INFO:tensorflow:Evaluation [70/100]
+INFO:tensorflow:Finished evaluation at 2018-09-30-09:36:49
+INFO:tensorflow:Saving dict for global step 31000: global_step = 31000, loss = 2.3794646, metrics-my_translate_ende_wmt32k/targets/accuracy = 0.57373255, metrics-my_translate_ende_wmt32k/targets/accuracy_per_sequence = 0.007333333, metrics-my_translate_ende_wmt32k/targets/accuracy_top5 = 0.7677159, metrics-my_translate_ende_wmt32k/targets/approx_bleu_score = 0.27231768, metrics-my_translate_ende_wmt32k/targets/neg_log_perplexity = -2.3700595, metrics-my_translate_ende_wmt32k/targets/rouge_2_fscore = 0.3460977, metrics-my_translate_ende_wmt32k/targets/rouge_L_fscore = 0.5530348
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 31000: /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt-31000
+INFO:tensorflow:global_step/sec: 1.24077
+INFO:tensorflow:loss = 2.341353, step = 31000 (80.594 sec)
+INFO:tensorflow:global_step/sec: 2.52106
+INFO:tensorflow:loss = 2.06086, step = 31100 (39.683 sec)
+INFO:tensorflow:global_step/sec: 2.62426
+INFO:tensorflow:loss = 1.7069964, step = 31200 (38.089 sec)
+INFO:tensorflow:global_step/sec: 2.61994
+INFO:tensorflow:loss = 2.6719713, step = 31300 (38.169 sec)
+INFO:tensorflow:global_step/sec: 2.5897
+INFO:tensorflow:loss = 1.9159036, step = 31400 (38.614 sec)
+INFO:tensorflow:global_step/sec: 2.63307
+INFO:tensorflow:loss = 2.8603058, step = 31500 (37.979 sec)
+INFO:tensorflow:global_step/sec: 2.64563
+INFO:tensorflow:loss = 2.1492634, step = 31600 (37.798 sec)
+INFO:tensorflow:global_step/sec: 2.59856
+INFO:tensorflow:loss = 2.3574944, step = 31700 (38.483 sec)
+INFO:tensorflow:global_step/sec: 2.57126
+INFO:tensorflow:loss = 2.1132712, step = 31800 (38.891 sec)
+INFO:tensorflow:global_step/sec: 2.60332
+INFO:tensorflow:loss = 2.425228, step = 31900 (38.412 sec)
+INFO:tensorflow:Saving checkpoints for 32000 into /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt.
+INFO:tensorflow:Skip the current checkpoint eval due to throttle secs (600 secs).
+INFO:tensorflow:global_step/sec: 2.28694
+INFO:tensorflow:loss = 2.2791004, step = 32000 (43.727 sec)
+INFO:tensorflow:global_step/sec: 2.65411
+INFO:tensorflow:loss = 2.7868302, step = 32100 (37.681 sec)
+INFO:tensorflow:global_step/sec: 2.6049
+INFO:tensorflow:loss = 2.7706666, step = 32200 (38.386 sec)
+INFO:tensorflow:global_step/sec: 2.56308
+INFO:tensorflow:loss = 2.403409, step = 32300 (39.016 sec)
+INFO:tensorflow:global_step/sec: 2.56561
+INFO:tensorflow:loss = 1.8915801, step = 32400 (38.977 sec)
+INFO:tensorflow:global_step/sec: 2.5627
+INFO:tensorflow:loss = 3.0708184, step = 32500 (39.021 sec)
+INFO:tensorflow:global_step/sec: 2.59083
+INFO:tensorflow:loss = 1.9901495, step = 32600 (38.598 sec)
+INFO:tensorflow:global_step/sec: 2.57608
+INFO:tensorflow:loss = 2.0494134, step = 32700 (38.819 sec)
+INFO:tensorflow:global_step/sec: 2.54378
+INFO:tensorflow:loss = 2.2170527, step = 32800 (39.311 sec)
+INFO:tensorflow:global_step/sec: 2.58321
+INFO:tensorflow:loss = 2.5305328, step = 32900 (38.712 sec)
+INFO:tensorflow:Saving checkpoints for 33000 into /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt.
+INFO:tensorflow:Reading data files from /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-dev*
+INFO:tensorflow:partition: 0 num_data_files: 1
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Setting T2TModel mode to 'eval'
+INFO:tensorflow:Setting hparams.dropout to 0.0
+INFO:tensorflow:Setting hparams.label_smoothing to 0.0
+INFO:tensorflow:Setting hparams.layer_prepostprocess_dropout to 0.0
+INFO:tensorflow:Setting hparams.symbol_dropout to 0.0
+INFO:tensorflow:Setting hparams.attention_dropout to 0.0
+INFO:tensorflow:Setting hparams.relu_dropout to 0.0
+INFO:tensorflow:Using variable initializer: uniform_unit_scaling
+INFO:tensorflow:Transforming feature 'inputs' with symbol_modality_33510_512.bottom
+INFO:tensorflow:Transforming 'targets' with symbol_modality_33510_512.targets_bottom
+INFO:tensorflow:Building model body
+INFO:tensorflow:Transforming body output with symbol_modality_33510_512.top
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-09-30-09:50:02
+INFO:tensorflow:Graph was finalized.
+2018-09-30 17:50:02.728735: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2018-09-30 17:50:02.728867: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-09-30 17:50:02.728936: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2018-09-30 17:50:02.729031: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2018-09-30 17:50:02.729253: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 5774 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1060 6GB, pci bus id: 0000:01:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt-33000
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Evaluation [10/100]
+INFO:tensorflow:Evaluation [20/100]
+INFO:tensorflow:Evaluation [30/100]
+INFO:tensorflow:Evaluation [40/100]
+INFO:tensorflow:Evaluation [50/100]
+INFO:tensorflow:Evaluation [60/100]
+INFO:tensorflow:Evaluation [70/100]
+INFO:tensorflow:Finished evaluation at 2018-09-30-09:50:26
+INFO:tensorflow:Saving dict for global step 33000: global_step = 33000, loss = 2.3405924, metrics-my_translate_ende_wmt32k/targets/accuracy = 0.5787858, metrics-my_translate_ende_wmt32k/targets/accuracy_per_sequence = 0.007333333, metrics-my_translate_ende_wmt32k/targets/accuracy_top5 = 0.7732768, metrics-my_translate_ende_wmt32k/targets/approx_bleu_score = 0.27770564, metrics-my_translate_ende_wmt32k/targets/neg_log_perplexity = -2.3349605, metrics-my_translate_ende_wmt32k/targets/rouge_2_fscore = 0.35217628, metrics-my_translate_ende_wmt32k/targets/rouge_L_fscore = 0.5577088
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 33000: /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt-33000
+INFO:tensorflow:global_step/sec: 1.28433
+INFO:tensorflow:loss = 2.7835748, step = 33000 (77.861 sec)
+INFO:tensorflow:global_step/sec: 2.61779
+INFO:tensorflow:loss = 2.16018, step = 33100 (38.200 sec)
+INFO:tensorflow:global_step/sec: 2.53943
+INFO:tensorflow:loss = 1.9139318, step = 33200 (39.379 sec)
+INFO:tensorflow:global_step/sec: 2.60947
+INFO:tensorflow:loss = 2.730811, step = 33300 (38.322 sec)
+INFO:tensorflow:global_step/sec: 2.60298
+INFO:tensorflow:loss = 2.4434414, step = 33400 (38.418 sec)
+INFO:tensorflow:global_step/sec: 2.64848
+INFO:tensorflow:loss = 2.0894067, step = 33500 (37.758 sec)
+INFO:tensorflow:global_step/sec: 2.63781
+INFO:tensorflow:loss = 2.2359316, step = 33600 (37.910 sec)
+INFO:tensorflow:global_step/sec: 2.64833
+INFO:tensorflow:loss = 2.3292747, step = 33700 (37.760 sec)
+INFO:tensorflow:global_step/sec: 2.64402
+INFO:tensorflow:loss = 2.268096, step = 33800 (37.821 sec)
+INFO:tensorflow:global_step/sec: 2.6409
+INFO:tensorflow:loss = 2.6755872, step = 33900 (37.866 sec)
+INFO:tensorflow:Saving checkpoints for 34000 into /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt.
+INFO:tensorflow:Skip the current checkpoint eval due to throttle secs (600 secs).
+INFO:tensorflow:global_step/sec: 2.30373
+INFO:tensorflow:loss = 2.121052, step = 34000 (43.407 sec)
+INFO:tensorflow:global_step/sec: 2.67817
+INFO:tensorflow:loss = 1.7234523, step = 34100 (37.339 sec)
+INFO:tensorflow:global_step/sec: 2.5832
+INFO:tensorflow:loss = 1.9964876, step = 34200 (38.712 sec)
+INFO:tensorflow:global_step/sec: 2.62328
+INFO:tensorflow:loss = 2.4612446, step = 34300 (38.121 sec)
+INFO:tensorflow:global_step/sec: 2.57015
+INFO:tensorflow:loss = 2.7895927, step = 34400 (38.908 sec)
+INFO:tensorflow:global_step/sec: 2.56751
+INFO:tensorflow:loss = 2.141266, step = 34500 (38.948 sec)
+INFO:tensorflow:global_step/sec: 2.59687
+INFO:tensorflow:loss = 2.3664527, step = 34600 (38.508 sec)
+INFO:tensorflow:global_step/sec: 2.59637
+INFO:tensorflow:loss = 2.3892484, step = 34700 (38.516 sec)
+INFO:tensorflow:global_step/sec: 2.59974
+INFO:tensorflow:loss = 2.6302607, step = 34800 (38.465 sec)
+INFO:tensorflow:global_step/sec: 2.58795
+INFO:tensorflow:loss = 2.7186124, step = 34900 (38.641 sec)
+INFO:tensorflow:Saving checkpoints for 35000 into /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt.
+INFO:tensorflow:Reading data files from /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-dev*
+INFO:tensorflow:partition: 0 num_data_files: 1
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Setting T2TModel mode to 'eval'
+INFO:tensorflow:Setting hparams.dropout to 0.0
+INFO:tensorflow:Setting hparams.label_smoothing to 0.0
+INFO:tensorflow:Setting hparams.layer_prepostprocess_dropout to 0.0
+INFO:tensorflow:Setting hparams.symbol_dropout to 0.0
+INFO:tensorflow:Setting hparams.attention_dropout to 0.0
+INFO:tensorflow:Setting hparams.relu_dropout to 0.0
+INFO:tensorflow:Using variable initializer: uniform_unit_scaling
+INFO:tensorflow:Transforming feature 'inputs' with symbol_modality_33510_512.bottom
+INFO:tensorflow:Transforming 'targets' with symbol_modality_33510_512.targets_bottom
+INFO:tensorflow:Building model body
+INFO:tensorflow:Transforming body output with symbol_modality_33510_512.top
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-09-30-10:03:35
+INFO:tensorflow:Graph was finalized.
+2018-09-30 18:03:35.725316: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2018-09-30 18:03:35.725449: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-09-30 18:03:35.725520: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2018-09-30 18:03:35.725598: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2018-09-30 18:03:35.725796: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 5774 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1060 6GB, pci bus id: 0000:01:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt-35000
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Evaluation [10/100]
+INFO:tensorflow:Evaluation [20/100]
+INFO:tensorflow:Evaluation [30/100]
+INFO:tensorflow:Evaluation [40/100]
+INFO:tensorflow:Evaluation [50/100]
+INFO:tensorflow:Evaluation [60/100]
+INFO:tensorflow:Evaluation [70/100]
+INFO:tensorflow:Finished evaluation at 2018-09-30-10:03:59
+INFO:tensorflow:Saving dict for global step 35000: global_step = 35000, loss = 2.3232613, metrics-my_translate_ende_wmt32k/targets/accuracy = 0.58183193, metrics-my_translate_ende_wmt32k/targets/accuracy_per_sequence = 0.008, metrics-my_translate_ende_wmt32k/targets/accuracy_top5 = 0.7747172, metrics-my_translate_ende_wmt32k/targets/approx_bleu_score = 0.2821571, metrics-my_translate_ende_wmt32k/targets/neg_log_perplexity = -2.3181674, metrics-my_translate_ende_wmt32k/targets/rouge_2_fscore = 0.35689965, metrics-my_translate_ende_wmt32k/targets/rouge_L_fscore = 0.5607519
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 35000: /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt-35000
+INFO:tensorflow:global_step/sec: 1.26194
+INFO:tensorflow:loss = 1.9085089, step = 35000 (79.243 sec)
+INFO:tensorflow:global_step/sec: 2.58518
+INFO:tensorflow:loss = 2.2050905, step = 35100 (38.682 sec)
+INFO:tensorflow:global_step/sec: 2.67675
+INFO:tensorflow:loss = 2.7188883, step = 35200 (37.359 sec)
+INFO:tensorflow:global_step/sec: 2.648
+INFO:tensorflow:loss = 3.0689447, step = 35300 (37.765 sec)
+INFO:tensorflow:global_step/sec: 2.62269
+INFO:tensorflow:loss = 2.161415, step = 35400 (38.129 sec)
+INFO:tensorflow:global_step/sec: 2.63738
+INFO:tensorflow:loss = 2.5537274, step = 35500 (37.916 sec)
+INFO:tensorflow:global_step/sec: 2.63078
+INFO:tensorflow:loss = 2.1810668, step = 35600 (38.011 sec)
+INFO:tensorflow:global_step/sec: 2.64079
+INFO:tensorflow:loss = 2.3791964, step = 35700 (37.868 sec)
+INFO:tensorflow:global_step/sec: 2.63114
+INFO:tensorflow:loss = 1.8097616, step = 35800 (38.006 sec)
+INFO:tensorflow:global_step/sec: 2.59475
+INFO:tensorflow:loss = 2.0221205, step = 35900 (38.539 sec)
+INFO:tensorflow:Saving checkpoints for 36000 into /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt.
+INFO:tensorflow:Skip the current checkpoint eval due to throttle secs (600 secs).
+INFO:tensorflow:global_step/sec: 2.30893
+INFO:tensorflow:loss = 2.455141, step = 36000 (43.310 sec)
+INFO:tensorflow:global_step/sec: 2.65938
+INFO:tensorflow:loss = 3.0553582, step = 36100 (37.603 sec)
+INFO:tensorflow:global_step/sec: 2.62742
+INFO:tensorflow:loss = 2.3197267, step = 36200 (38.060 sec)
+INFO:tensorflow:global_step/sec: 2.59128
+INFO:tensorflow:loss = 2.5210562, step = 36300 (38.609 sec)
+INFO:tensorflow:global_step/sec: 2.59897
+INFO:tensorflow:loss = 2.776257, step = 36400 (38.458 sec)
+INFO:tensorflow:global_step/sec: 2.62356
+INFO:tensorflow:loss = 3.1847105, step = 36500 (38.116 sec)
+INFO:tensorflow:global_step/sec: 2.6011
+INFO:tensorflow:loss = 1.7138445, step = 36600 (38.445 sec)
+INFO:tensorflow:global_step/sec: 2.56359
+INFO:tensorflow:loss = 2.5845895, step = 36700 (39.008 sec)
+INFO:tensorflow:global_step/sec: 2.57767
+INFO:tensorflow:loss = 3.2304525, step = 36800 (38.795 sec)
+INFO:tensorflow:global_step/sec: 2.59709
+INFO:tensorflow:loss = 2.5128908, step = 36900 (38.505 sec)
+INFO:tensorflow:Saving checkpoints for 37000 into /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt.
+INFO:tensorflow:Reading data files from /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-dev*
+INFO:tensorflow:partition: 0 num_data_files: 1
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Setting T2TModel mode to 'eval'
+INFO:tensorflow:Setting hparams.dropout to 0.0
+INFO:tensorflow:Setting hparams.label_smoothing to 0.0
+INFO:tensorflow:Setting hparams.layer_prepostprocess_dropout to 0.0
+INFO:tensorflow:Setting hparams.symbol_dropout to 0.0
+INFO:tensorflow:Setting hparams.attention_dropout to 0.0
+INFO:tensorflow:Setting hparams.relu_dropout to 0.0
+INFO:tensorflow:Using variable initializer: uniform_unit_scaling
+INFO:tensorflow:Transforming feature 'inputs' with symbol_modality_33510_512.bottom
+INFO:tensorflow:Transforming 'targets' with symbol_modality_33510_512.targets_bottom
+INFO:tensorflow:Building model body
+INFO:tensorflow:Transforming body output with symbol_modality_33510_512.top
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-09-30-10:17:02
+INFO:tensorflow:Graph was finalized.
+2018-09-30 18:17:03.084424: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2018-09-30 18:17:03.084540: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-09-30 18:17:03.084610: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2018-09-30 18:17:03.084734: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2018-09-30 18:17:03.084914: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 5774 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1060 6GB, pci bus id: 0000:01:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt-37000
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Evaluation [10/100]
+INFO:tensorflow:Evaluation [20/100]
+INFO:tensorflow:Evaluation [30/100]
+INFO:tensorflow:Evaluation [40/100]
+INFO:tensorflow:Evaluation [50/100]
+INFO:tensorflow:Evaluation [60/100]
+INFO:tensorflow:Evaluation [70/100]
+INFO:tensorflow:Finished evaluation at 2018-09-30-10:17:25
+INFO:tensorflow:Saving dict for global step 37000: global_step = 37000, loss = 2.2863564, metrics-my_translate_ende_wmt32k/targets/accuracy = 0.5857872, metrics-my_translate_ende_wmt32k/targets/accuracy_per_sequence = 0.009333333, metrics-my_translate_ende_wmt32k/targets/accuracy_top5 = 0.78027815, metrics-my_translate_ende_wmt32k/targets/approx_bleu_score = 0.2851346, metrics-my_translate_ende_wmt32k/targets/neg_log_perplexity = -2.2792249, metrics-my_translate_ende_wmt32k/targets/rouge_2_fscore = 0.35935718, metrics-my_translate_ende_wmt32k/targets/rouge_L_fscore = 0.5645619
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 37000: /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt-37000
+INFO:tensorflow:global_step/sec: 1.34194
+INFO:tensorflow:loss = 2.1438663, step = 37000 (74.519 sec)
+INFO:tensorflow:global_step/sec: 2.64618
+INFO:tensorflow:loss = 1.9145738, step = 37100 (37.790 sec)
+INFO:tensorflow:global_step/sec: 2.64007
+INFO:tensorflow:loss = 2.224441, step = 37200 (37.878 sec)
+INFO:tensorflow:global_step/sec: 2.62763
+INFO:tensorflow:loss = 2.4125512, step = 37300 (38.057 sec)
+INFO:tensorflow:global_step/sec: 2.60276
+INFO:tensorflow:loss = 2.7989445, step = 37400 (38.420 sec)
+INFO:tensorflow:global_step/sec: 2.59922
+INFO:tensorflow:loss = 1.8746903, step = 37500 (38.473 sec)
+INFO:tensorflow:global_step/sec: 2.64551
+INFO:tensorflow:loss = 2.8444993, step = 37600 (37.800 sec)
+INFO:tensorflow:global_step/sec: 2.63694
+INFO:tensorflow:loss = 1.9675686, step = 37700 (37.922 sec)
+INFO:tensorflow:global_step/sec: 2.65176
+INFO:tensorflow:loss = 2.198774, step = 37800 (37.711 sec)
+INFO:tensorflow:global_step/sec: 2.59785
+INFO:tensorflow:loss = 2.116236, step = 37900 (38.493 sec)
+INFO:tensorflow:Saving checkpoints for 38000 into /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt.
+INFO:tensorflow:Skip the current checkpoint eval due to throttle secs (600 secs).
+INFO:tensorflow:global_step/sec: 2.22829
+INFO:tensorflow:loss = 2.8411677, step = 38000 (44.877 sec)
+INFO:tensorflow:global_step/sec: 2.59039
+INFO:tensorflow:loss = 2.4589038, step = 38100 (38.604 sec)
+INFO:tensorflow:global_step/sec: 2.5813
+INFO:tensorflow:loss = 2.0823252, step = 38200 (38.753 sec)
+INFO:tensorflow:global_step/sec: 2.52529
+INFO:tensorflow:loss = 2.1327832, step = 38300 (39.587 sec)
+INFO:tensorflow:global_step/sec: 2.62129
+INFO:tensorflow:loss = 2.2076366, step = 38400 (38.150 sec)
+INFO:tensorflow:global_step/sec: 2.63584
+INFO:tensorflow:loss = 2.0038414, step = 38500 (37.939 sec)
+INFO:tensorflow:global_step/sec: 2.63983
+INFO:tensorflow:loss = 2.7341948, step = 38600 (37.880 sec)
+INFO:tensorflow:global_step/sec: 2.63018
+INFO:tensorflow:loss = 2.5854359, step = 38700 (38.020 sec)
+INFO:tensorflow:global_step/sec: 2.63962
+INFO:tensorflow:loss = 2.9108963, step = 38800 (37.885 sec)
+INFO:tensorflow:global_step/sec: 2.64054
+INFO:tensorflow:loss = 2.1423638, step = 38900 (37.871 sec)
+INFO:tensorflow:Saving checkpoints for 39000 into /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt.
+INFO:tensorflow:Reading data files from /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-dev*
+INFO:tensorflow:partition: 0 num_data_files: 1
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Setting T2TModel mode to 'eval'
+INFO:tensorflow:Setting hparams.dropout to 0.0
+INFO:tensorflow:Setting hparams.label_smoothing to 0.0
+INFO:tensorflow:Setting hparams.layer_prepostprocess_dropout to 0.0
+INFO:tensorflow:Setting hparams.symbol_dropout to 0.0
+INFO:tensorflow:Setting hparams.attention_dropout to 0.0
+INFO:tensorflow:Setting hparams.relu_dropout to 0.0
+INFO:tensorflow:Using variable initializer: uniform_unit_scaling
+INFO:tensorflow:Transforming feature 'inputs' with symbol_modality_33510_512.bottom
+INFO:tensorflow:Transforming 'targets' with symbol_modality_33510_512.targets_bottom
+INFO:tensorflow:Building model body
+INFO:tensorflow:Transforming body output with symbol_modality_33510_512.top
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-09-30-10:30:28
+INFO:tensorflow:Graph was finalized.
+2018-09-30 18:30:29.264138: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2018-09-30 18:30:29.264251: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-09-30 18:30:29.264322: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2018-09-30 18:30:29.264400: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2018-09-30 18:30:29.264598: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 5774 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1060 6GB, pci bus id: 0000:01:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt-39000
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Evaluation [10/100]
+INFO:tensorflow:Evaluation [20/100]
+INFO:tensorflow:Evaluation [30/100]
+INFO:tensorflow:Evaluation [40/100]
+INFO:tensorflow:Evaluation [50/100]
+INFO:tensorflow:Evaluation [60/100]
+INFO:tensorflow:Evaluation [70/100]
+INFO:tensorflow:Finished evaluation at 2018-09-30-10:30:54
+INFO:tensorflow:Saving dict for global step 39000: global_step = 39000, loss = 2.2676256, metrics-my_translate_ende_wmt32k/targets/accuracy = 0.5886916, metrics-my_translate_ende_wmt32k/targets/accuracy_per_sequence = 0.007333333, metrics-my_translate_ende_wmt32k/targets/accuracy_top5 = 0.7811991, metrics-my_translate_ende_wmt32k/targets/approx_bleu_score = 0.28671783, metrics-my_translate_ende_wmt32k/targets/neg_log_perplexity = -2.259897, metrics-my_translate_ende_wmt32k/targets/rouge_2_fscore = 0.3619791, metrics-my_translate_ende_wmt32k/targets/rouge_L_fscore = 0.5659192
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 39000: /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt-39000
+INFO:tensorflow:global_step/sec: 1.30004
+INFO:tensorflow:loss = 2.1213152, step = 39000 (76.921 sec)
+INFO:tensorflow:global_step/sec: 2.61648
+INFO:tensorflow:loss = 2.400627, step = 39100 (38.220 sec)
+INFO:tensorflow:global_step/sec: 2.68881
+INFO:tensorflow:loss = 2.6208851, step = 39200 (37.191 sec)
+INFO:tensorflow:global_step/sec: 2.65402
+INFO:tensorflow:loss = 2.4792626, step = 39300 (37.679 sec)
+INFO:tensorflow:global_step/sec: 2.64298
+INFO:tensorflow:loss = 2.1645517, step = 39400 (37.836 sec)
+INFO:tensorflow:global_step/sec: 2.63642
+INFO:tensorflow:loss = 2.358178, step = 39500 (37.931 sec)
+INFO:tensorflow:global_step/sec: 2.64287
+INFO:tensorflow:loss = 1.7243819, step = 39600 (37.838 sec)
+INFO:tensorflow:global_step/sec: 2.65364
+INFO:tensorflow:loss = 2.0498123, step = 39700 (37.684 sec)
+INFO:tensorflow:global_step/sec: 2.63839
+INFO:tensorflow:loss = 2.093195, step = 39800 (37.902 sec)
+INFO:tensorflow:global_step/sec: 2.6339
+INFO:tensorflow:loss = 2.3329432, step = 39900 (37.970 sec)
+INFO:tensorflow:Saving checkpoints for 40000 into /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt.
+INFO:tensorflow:Skip the current checkpoint eval due to throttle secs (600 secs).
+INFO:tensorflow:global_step/sec: 2.31035
+INFO:tensorflow:loss = 2.5006776, step = 40000 (43.279 sec)
+INFO:tensorflow:global_step/sec: 2.67312
+INFO:tensorflow:loss = 2.4497907, step = 40100 (37.410 sec)
+INFO:tensorflow:global_step/sec: 2.63835
+INFO:tensorflow:loss = 2.3956065, step = 40200 (37.902 sec)
+INFO:tensorflow:global_step/sec: 2.64594
+INFO:tensorflow:loss = 2.2071245, step = 40300 (37.794 sec)
+INFO:tensorflow:global_step/sec: 2.63339
+INFO:tensorflow:loss = 2.0967784, step = 40400 (37.974 sec)
+INFO:tensorflow:global_step/sec: 2.63684
+INFO:tensorflow:loss = 2.843127, step = 40500 (37.924 sec)
+INFO:tensorflow:global_step/sec: 2.64293
+INFO:tensorflow:loss = 2.0335243, step = 40600 (37.837 sec)
+INFO:tensorflow:global_step/sec: 2.63724
+INFO:tensorflow:loss = 2.2668228, step = 40700 (37.919 sec)
+INFO:tensorflow:global_step/sec: 2.6356
+INFO:tensorflow:loss = 1.8648742, step = 40800 (37.941 sec)
+INFO:tensorflow:global_step/sec: 2.64491
+INFO:tensorflow:loss = 1.8221589, step = 40900 (37.808 sec)
+INFO:tensorflow:Saving checkpoints for 41000 into /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt.
+INFO:tensorflow:Reading data files from /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-dev*
+INFO:tensorflow:partition: 0 num_data_files: 1
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Setting T2TModel mode to 'eval'
+INFO:tensorflow:Setting hparams.dropout to 0.0
+INFO:tensorflow:Setting hparams.label_smoothing to 0.0
+INFO:tensorflow:Setting hparams.layer_prepostprocess_dropout to 0.0
+INFO:tensorflow:Setting hparams.symbol_dropout to 0.0
+INFO:tensorflow:Setting hparams.attention_dropout to 0.0
+INFO:tensorflow:Setting hparams.relu_dropout to 0.0
+INFO:tensorflow:Using variable initializer: uniform_unit_scaling
+INFO:tensorflow:Transforming feature 'inputs' with symbol_modality_33510_512.bottom
+INFO:tensorflow:Transforming 'targets' with symbol_modality_33510_512.targets_bottom
+INFO:tensorflow:Building model body
+INFO:tensorflow:Transforming body output with symbol_modality_33510_512.top
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-09-30-10:43:49
+INFO:tensorflow:Graph was finalized.
+2018-09-30 18:43:50.045264: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2018-09-30 18:43:50.045382: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-09-30 18:43:50.045451: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2018-09-30 18:43:50.045542: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2018-09-30 18:43:50.045744: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 5774 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1060 6GB, pci bus id: 0000:01:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt-41000
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Evaluation [10/100]
+INFO:tensorflow:Evaluation [20/100]
+INFO:tensorflow:Evaluation [30/100]
+INFO:tensorflow:Evaluation [40/100]
+INFO:tensorflow:Evaluation [50/100]
+INFO:tensorflow:Evaluation [60/100]
+INFO:tensorflow:Evaluation [70/100]
+INFO:tensorflow:Finished evaluation at 2018-09-30-10:44:14
+INFO:tensorflow:Saving dict for global step 41000: global_step = 41000, loss = 2.234053, metrics-my_translate_ende_wmt32k/targets/accuracy = 0.5926232, metrics-my_translate_ende_wmt32k/targets/accuracy_per_sequence = 0.008333334, metrics-my_translate_ende_wmt32k/targets/accuracy_top5 = 0.78448135, metrics-my_translate_ende_wmt32k/targets/approx_bleu_score = 0.28876972, metrics-my_translate_ende_wmt32k/targets/neg_log_perplexity = -2.2307422, metrics-my_translate_ende_wmt32k/targets/rouge_2_fscore = 0.36508206, metrics-my_translate_ende_wmt32k/targets/rouge_L_fscore = 0.5691715
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 41000: /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt-41000
+INFO:tensorflow:global_step/sec: 1.30581
+INFO:tensorflow:loss = 2.7202017, step = 41000 (76.591 sec)
+INFO:tensorflow:global_step/sec: 2.68226
+INFO:tensorflow:loss = 1.9523548, step = 41100 (37.272 sec)
+INFO:tensorflow:global_step/sec: 2.67809
+INFO:tensorflow:loss = 3.35255, step = 41200 (37.340 sec)
+INFO:tensorflow:global_step/sec: 2.66781
+INFO:tensorflow:loss = 3.1604419, step = 41300 (37.484 sec)
+INFO:tensorflow:global_step/sec: 2.63177
+INFO:tensorflow:loss = 2.453314, step = 41400 (37.997 sec)
+INFO:tensorflow:global_step/sec: 2.64373
+INFO:tensorflow:loss = 2.2339647, step = 41500 (37.825 sec)
+INFO:tensorflow:global_step/sec: 2.63204
+INFO:tensorflow:loss = 1.90479, step = 41600 (37.993 sec)
+INFO:tensorflow:global_step/sec: 2.6567
+INFO:tensorflow:loss = 2.0266807, step = 41700 (37.641 sec)
+INFO:tensorflow:global_step/sec: 2.63457
+INFO:tensorflow:loss = 2.5681314, step = 41800 (37.957 sec)
+INFO:tensorflow:global_step/sec: 2.6376
+INFO:tensorflow:loss = 1.7955647, step = 41900 (37.913 sec)
+INFO:tensorflow:Saving checkpoints for 42000 into /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt.
+INFO:tensorflow:Skip the current checkpoint eval due to throttle secs (600 secs).
+INFO:tensorflow:global_step/sec: 2.31092
+INFO:tensorflow:loss = 1.8801779, step = 42000 (43.273 sec)
+INFO:tensorflow:global_step/sec: 2.65845
+INFO:tensorflow:loss = 2.35864, step = 42100 (37.616 sec)
+INFO:tensorflow:global_step/sec: 2.64994
+INFO:tensorflow:loss = 1.8062985, step = 42200 (37.740 sec)
+INFO:tensorflow:global_step/sec: 2.64061
+INFO:tensorflow:loss = 2.9079852, step = 42300 (37.867 sec)
+INFO:tensorflow:global_step/sec: 2.64279
+INFO:tensorflow:loss = 2.1200035, step = 42400 (37.839 sec)
+INFO:tensorflow:global_step/sec: 2.64342
+INFO:tensorflow:loss = 2.1569302, step = 42500 (37.830 sec)
+INFO:tensorflow:global_step/sec: 2.64222
+INFO:tensorflow:loss = 2.1749027, step = 42600 (37.847 sec)
+INFO:tensorflow:global_step/sec: 2.62479
+INFO:tensorflow:loss = 2.6294224, step = 42700 (38.098 sec)
+INFO:tensorflow:global_step/sec: 2.64831
+INFO:tensorflow:loss = 2.1238034, step = 42800 (37.760 sec)
+INFO:tensorflow:global_step/sec: 2.64507
+INFO:tensorflow:loss = 1.7783512, step = 42900 (37.806 sec)
+INFO:tensorflow:Saving checkpoints for 43000 into /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt.
+INFO:tensorflow:Reading data files from /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-dev*
+INFO:tensorflow:partition: 0 num_data_files: 1
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Setting T2TModel mode to 'eval'
+INFO:tensorflow:Setting hparams.dropout to 0.0
+INFO:tensorflow:Setting hparams.label_smoothing to 0.0
+INFO:tensorflow:Setting hparams.layer_prepostprocess_dropout to 0.0
+INFO:tensorflow:Setting hparams.symbol_dropout to 0.0
+INFO:tensorflow:Setting hparams.attention_dropout to 0.0
+INFO:tensorflow:Setting hparams.relu_dropout to 0.0
+INFO:tensorflow:Using variable initializer: uniform_unit_scaling
+INFO:tensorflow:Transforming feature 'inputs' with symbol_modality_33510_512.bottom
+INFO:tensorflow:Transforming 'targets' with symbol_modality_33510_512.targets_bottom
+INFO:tensorflow:Building model body
+INFO:tensorflow:Transforming body output with symbol_modality_33510_512.top
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-09-30-10:57:09
+INFO:tensorflow:Graph was finalized.
+2018-09-30 18:57:09.808346: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2018-09-30 18:57:09.808473: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-09-30 18:57:09.808559: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2018-09-30 18:57:09.808638: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2018-09-30 18:57:09.808811: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 5774 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1060 6GB, pci bus id: 0000:01:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt-43000
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Evaluation [10/100]
+INFO:tensorflow:Evaluation [20/100]
+INFO:tensorflow:Evaluation [30/100]
+INFO:tensorflow:Evaluation [40/100]
+INFO:tensorflow:Evaluation [50/100]
+INFO:tensorflow:Evaluation [60/100]
+INFO:tensorflow:Evaluation [70/100]
+INFO:tensorflow:Finished evaluation at 2018-09-30-10:57:34
+INFO:tensorflow:Saving dict for global step 43000: global_step = 43000, loss = 2.214331, metrics-my_translate_ende_wmt32k/targets/accuracy = 0.59561026, metrics-my_translate_ende_wmt32k/targets/accuracy_per_sequence = 0.008, metrics-my_translate_ende_wmt32k/targets/accuracy_top5 = 0.7878699, metrics-my_translate_ende_wmt32k/targets/approx_bleu_score = 0.29393306, metrics-my_translate_ende_wmt32k/targets/neg_log_perplexity = -2.2093291, metrics-my_translate_ende_wmt32k/targets/rouge_2_fscore = 0.37051225, metrics-my_translate_ende_wmt32k/targets/rouge_L_fscore = 0.5727581
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 43000: /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt-43000
+INFO:tensorflow:global_step/sec: 1.30678
+INFO:tensorflow:loss = 1.8129581, step = 43000 (76.524 sec)
+INFO:tensorflow:global_step/sec: 2.68142
+INFO:tensorflow:loss = 2.398838, step = 43100 (37.294 sec)
+INFO:tensorflow:global_step/sec: 2.67077
+INFO:tensorflow:loss = 2.0568733, step = 43200 (37.442 sec)
+INFO:tensorflow:global_step/sec: 2.64924
+INFO:tensorflow:loss = 2.277395, step = 43300 (37.747 sec)
+INFO:tensorflow:global_step/sec: 2.63772
+INFO:tensorflow:loss = 2.7277832, step = 43400 (37.911 sec)
+INFO:tensorflow:global_step/sec: 2.64083
+INFO:tensorflow:loss = 2.531818, step = 43500 (37.867 sec)
+INFO:tensorflow:global_step/sec: 2.64278
+INFO:tensorflow:loss = 1.7377124, step = 43600 (37.839 sec)
+INFO:tensorflow:global_step/sec: 2.64498
+INFO:tensorflow:loss = 2.986323, step = 43700 (37.808 sec)
+INFO:tensorflow:global_step/sec: 2.64247
+INFO:tensorflow:loss = 2.5446603, step = 43800 (37.843 sec)
+INFO:tensorflow:global_step/sec: 2.65137
+INFO:tensorflow:loss = 2.1324873, step = 43900 (37.716 sec)
+INFO:tensorflow:Saving checkpoints for 44000 into /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt.
+INFO:tensorflow:Skip the current checkpoint eval due to throttle secs (600 secs).
+INFO:tensorflow:global_step/sec: 2.30053
+INFO:tensorflow:loss = 2.1857953, step = 44000 (43.468 sec)
+INFO:tensorflow:global_step/sec: 2.6681
+INFO:tensorflow:loss = 2.0082364, step = 44100 (37.480 sec)
+INFO:tensorflow:global_step/sec: 2.64849
+INFO:tensorflow:loss = 2.4523327, step = 44200 (37.757 sec)
+INFO:tensorflow:global_step/sec: 2.63288
+INFO:tensorflow:loss = 2.1326282, step = 44300 (37.981 sec)
+INFO:tensorflow:global_step/sec: 2.64526
+INFO:tensorflow:loss = 2.2997918, step = 44400 (37.803 sec)
+INFO:tensorflow:global_step/sec: 2.63307
+INFO:tensorflow:loss = 2.5023193, step = 44500 (37.979 sec)
+INFO:tensorflow:global_step/sec: 2.62672
+INFO:tensorflow:loss = 2.0819838, step = 44600 (38.070 sec)
+INFO:tensorflow:global_step/sec: 2.6373
+INFO:tensorflow:loss = 2.2014463, step = 44700 (37.918 sec)
+INFO:tensorflow:global_step/sec: 2.63408
+INFO:tensorflow:loss = 2.5826447, step = 44800 (37.964 sec)
+INFO:tensorflow:global_step/sec: 2.59232
+INFO:tensorflow:loss = 2.1259239, step = 44900 (38.576 sec)
+INFO:tensorflow:Saving checkpoints for 45000 into /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt.
+INFO:tensorflow:Reading data files from /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-dev*
+INFO:tensorflow:partition: 0 num_data_files: 1
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Setting T2TModel mode to 'eval'
+INFO:tensorflow:Setting hparams.dropout to 0.0
+INFO:tensorflow:Setting hparams.label_smoothing to 0.0
+INFO:tensorflow:Setting hparams.layer_prepostprocess_dropout to 0.0
+INFO:tensorflow:Setting hparams.symbol_dropout to 0.0
+INFO:tensorflow:Setting hparams.attention_dropout to 0.0
+INFO:tensorflow:Setting hparams.relu_dropout to 0.0
+INFO:tensorflow:Using variable initializer: uniform_unit_scaling
+INFO:tensorflow:Transforming feature 'inputs' with symbol_modality_33510_512.bottom
+INFO:tensorflow:Transforming 'targets' with symbol_modality_33510_512.targets_bottom
+INFO:tensorflow:Building model body
+INFO:tensorflow:Transforming body output with symbol_modality_33510_512.top
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-09-30-11:10:31
+INFO:tensorflow:Graph was finalized.
+2018-09-30 19:10:32.007728: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2018-09-30 19:10:32.008375: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-09-30 19:10:32.008638: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2018-09-30 19:10:32.008912: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2018-09-30 19:10:32.009116: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 5774 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1060 6GB, pci bus id: 0000:01:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt-45000
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Evaluation [10/100]
+INFO:tensorflow:Evaluation [20/100]
+INFO:tensorflow:Evaluation [30/100]
+INFO:tensorflow:Evaluation [40/100]
+INFO:tensorflow:Evaluation [50/100]
+INFO:tensorflow:Evaluation [60/100]
+INFO:tensorflow:Evaluation [70/100]
+INFO:tensorflow:Finished evaluation at 2018-09-30-11:10:56
+INFO:tensorflow:Saving dict for global step 45000: global_step = 45000, loss = 2.202366, metrics-my_translate_ende_wmt32k/targets/accuracy = 0.59762925, metrics-my_translate_ende_wmt32k/targets/accuracy_per_sequence = 0.007333333, metrics-my_translate_ende_wmt32k/targets/accuracy_top5 = 0.79038465, metrics-my_translate_ende_wmt32k/targets/approx_bleu_score = 0.29639542, metrics-my_translate_ende_wmt32k/targets/neg_log_perplexity = -2.1976817, metrics-my_translate_ende_wmt32k/targets/rouge_2_fscore = 0.37247556, metrics-my_translate_ende_wmt32k/targets/rouge_L_fscore = 0.5751921
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 45000: /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt-45000
+INFO:tensorflow:global_step/sec: 1.28268
+INFO:tensorflow:loss = 2.2222762, step = 45000 (77.962 sec)
+INFO:tensorflow:global_step/sec: 2.62302
+INFO:tensorflow:loss = 1.9738032, step = 45100 (38.124 sec)
+INFO:tensorflow:global_step/sec: 2.58155
+INFO:tensorflow:loss = 2.2925792, step = 45200 (38.737 sec)
+INFO:tensorflow:global_step/sec: 2.56778
+INFO:tensorflow:loss = 2.088748, step = 45300 (38.944 sec)
+INFO:tensorflow:global_step/sec: 2.57978
+INFO:tensorflow:loss = 2.1543183, step = 45400 (38.763 sec)
+INFO:tensorflow:global_step/sec: 2.61838
+INFO:tensorflow:loss = 2.562592, step = 45500 (38.191 sec)
+INFO:tensorflow:global_step/sec: 2.49902
+INFO:tensorflow:loss = 1.8968701, step = 45600 (40.016 sec)
+INFO:tensorflow:global_step/sec: 2.49617
+INFO:tensorflow:loss = 2.026111, step = 45700 (40.061 sec)
+INFO:tensorflow:global_step/sec: 2.50039
+INFO:tensorflow:loss = 2.2394264, step = 45800 (39.994 sec)
+INFO:tensorflow:global_step/sec: 2.47746
+INFO:tensorflow:loss = 2.4242187, step = 45900 (40.363 sec)
+INFO:tensorflow:Saving checkpoints for 46000 into /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt.
+INFO:tensorflow:Skip the current checkpoint eval due to throttle secs (600 secs).
+INFO:tensorflow:global_step/sec: 2.12845
+INFO:tensorflow:loss = 2.4082942, step = 46000 (46.983 sec)
+INFO:tensorflow:global_step/sec: 2.61142
+INFO:tensorflow:loss = 2.2477498, step = 46100 (38.337 sec)
+INFO:tensorflow:global_step/sec: 2.60105
+INFO:tensorflow:loss = 2.4112802, step = 46200 (38.402 sec)
+INFO:tensorflow:global_step/sec: 2.61846
+INFO:tensorflow:loss = 2.291048, step = 46300 (38.190 sec)
+INFO:tensorflow:global_step/sec: 2.59959
+INFO:tensorflow:loss = 1.9073316, step = 46400 (38.468 sec)
+INFO:tensorflow:global_step/sec: 2.63454
+INFO:tensorflow:loss = 1.89925, step = 46500 (37.957 sec)
+INFO:tensorflow:global_step/sec: 2.61584
+INFO:tensorflow:loss = 1.8523576, step = 46600 (38.229 sec)
+INFO:tensorflow:global_step/sec: 2.56266
+INFO:tensorflow:loss = 2.1304383, step = 46700 (39.022 sec)
+INFO:tensorflow:global_step/sec: 2.59926
+INFO:tensorflow:loss = 1.1955788, step = 46800 (38.472 sec)
+INFO:tensorflow:global_step/sec: 2.56431
+INFO:tensorflow:loss = 1.8678787, step = 46900 (38.997 sec)
+INFO:tensorflow:Saving checkpoints for 47000 into /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt.
+INFO:tensorflow:Reading data files from /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-dev*
+INFO:tensorflow:partition: 0 num_data_files: 1
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Setting T2TModel mode to 'eval'
+INFO:tensorflow:Setting hparams.dropout to 0.0
+INFO:tensorflow:Setting hparams.label_smoothing to 0.0
+INFO:tensorflow:Setting hparams.layer_prepostprocess_dropout to 0.0
+INFO:tensorflow:Setting hparams.symbol_dropout to 0.0
+INFO:tensorflow:Setting hparams.attention_dropout to 0.0
+INFO:tensorflow:Setting hparams.relu_dropout to 0.0
+INFO:tensorflow:Using variable initializer: uniform_unit_scaling
+INFO:tensorflow:Transforming feature 'inputs' with symbol_modality_33510_512.bottom
+INFO:tensorflow:Transforming 'targets' with symbol_modality_33510_512.targets_bottom
+INFO:tensorflow:Building model body
+INFO:tensorflow:Transforming body output with symbol_modality_33510_512.top
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-09-30-11:24:15
+INFO:tensorflow:Graph was finalized.
+2018-09-30 19:24:16.179813: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2018-09-30 19:24:16.179956: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-09-30 19:24:16.180026: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2018-09-30 19:24:16.180105: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2018-09-30 19:24:16.180326: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 5774 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1060 6GB, pci bus id: 0000:01:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt-47000
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Evaluation [10/100]
+INFO:tensorflow:Evaluation [20/100]
+INFO:tensorflow:Evaluation [30/100]
+INFO:tensorflow:Evaluation [40/100]
+INFO:tensorflow:Evaluation [50/100]
+INFO:tensorflow:Evaluation [60/100]
+INFO:tensorflow:Evaluation [70/100]
+INFO:tensorflow:Finished evaluation at 2018-09-30-11:24:38
+INFO:tensorflow:Saving dict for global step 47000: global_step = 47000, loss = 2.1888618, metrics-my_translate_ende_wmt32k/targets/accuracy = 0.6003211, metrics-my_translate_ende_wmt32k/targets/accuracy_per_sequence = 0.010333333, metrics-my_translate_ende_wmt32k/targets/accuracy_top5 = 0.79266334, metrics-my_translate_ende_wmt32k/targets/approx_bleu_score = 0.2994565, metrics-my_translate_ende_wmt32k/targets/neg_log_perplexity = -2.1814811, metrics-my_translate_ende_wmt32k/targets/rouge_2_fscore = 0.37508258, metrics-my_translate_ende_wmt32k/targets/rouge_L_fscore = 0.57644516
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 47000: /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt-47000
+INFO:tensorflow:global_step/sec: 1.32925
+INFO:tensorflow:loss = 2.2393036, step = 47000 (75.230 sec)
+INFO:tensorflow:global_step/sec: 2.62638
+INFO:tensorflow:loss = 2.3257248, step = 47100 (38.075 sec)
+INFO:tensorflow:global_step/sec: 2.59957
+INFO:tensorflow:loss = 2.357667, step = 47200 (38.468 sec)
+INFO:tensorflow:global_step/sec: 2.6136
+INFO:tensorflow:loss = 2.2498686, step = 47300 (38.262 sec)
+INFO:tensorflow:global_step/sec: 2.6195
+INFO:tensorflow:loss = 1.5552957, step = 47400 (38.175 sec)
+INFO:tensorflow:global_step/sec: 2.63507
+INFO:tensorflow:loss = 1.9867729, step = 47500 (37.950 sec)
+INFO:tensorflow:global_step/sec: 2.626
+INFO:tensorflow:loss = 2.5619385, step = 47600 (38.081 sec)
+INFO:tensorflow:global_step/sec: 2.58917
+INFO:tensorflow:loss = 2.7158482, step = 47700 (38.623 sec)
+INFO:tensorflow:global_step/sec: 2.60569
+INFO:tensorflow:loss = 2.041871, step = 47800 (38.377 sec)
+INFO:tensorflow:global_step/sec: 2.5928
+INFO:tensorflow:loss = 2.0243995, step = 47900 (38.568 sec)
+INFO:tensorflow:Saving checkpoints for 48000 into /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt.
+INFO:tensorflow:Skip the current checkpoint eval due to throttle secs (600 secs).
+INFO:tensorflow:global_step/sec: 2.28528
+INFO:tensorflow:loss = 2.0639398, step = 48000 (43.765 sec)
+INFO:tensorflow:global_step/sec: 2.62177
+INFO:tensorflow:loss = 2.3133981, step = 48100 (38.135 sec)
+INFO:tensorflow:global_step/sec: 2.61669
+INFO:tensorflow:loss = 1.8610711, step = 48200 (38.216 sec)
+INFO:tensorflow:global_step/sec: 2.65102
+INFO:tensorflow:loss = 2.212418, step = 48300 (37.721 sec)
+INFO:tensorflow:global_step/sec: 2.61441
+INFO:tensorflow:loss = 2.1668274, step = 48400 (38.250 sec)
+INFO:tensorflow:global_step/sec: 2.63987
+INFO:tensorflow:loss = 2.5135055, step = 48500 (37.880 sec)
+INFO:tensorflow:global_step/sec: 2.62619
+INFO:tensorflow:loss = 1.9536, step = 48600 (38.078 sec)
+INFO:tensorflow:global_step/sec: 2.63501
+INFO:tensorflow:loss = 2.1471667, step = 48700 (37.951 sec)
+INFO:tensorflow:global_step/sec: 2.63976
+INFO:tensorflow:loss = 2.1508453, step = 48800 (37.882 sec)
+INFO:tensorflow:global_step/sec: 2.63715
+INFO:tensorflow:loss = 2.0138383, step = 48900 (37.919 sec)
+INFO:tensorflow:Saving checkpoints for 49000 into /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt.
+INFO:tensorflow:Reading data files from /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-dev*
+INFO:tensorflow:partition: 0 num_data_files: 1
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Setting T2TModel mode to 'eval'
+INFO:tensorflow:Setting hparams.dropout to 0.0
+INFO:tensorflow:Setting hparams.label_smoothing to 0.0
+INFO:tensorflow:Setting hparams.layer_prepostprocess_dropout to 0.0
+INFO:tensorflow:Setting hparams.symbol_dropout to 0.0
+INFO:tensorflow:Setting hparams.attention_dropout to 0.0
+INFO:tensorflow:Setting hparams.relu_dropout to 0.0
+INFO:tensorflow:Using variable initializer: uniform_unit_scaling
+INFO:tensorflow:Transforming feature 'inputs' with symbol_modality_33510_512.bottom
+INFO:tensorflow:Transforming 'targets' with symbol_modality_33510_512.targets_bottom
+INFO:tensorflow:Building model body
+INFO:tensorflow:Transforming body output with symbol_modality_33510_512.top
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-09-30-11:37:40
+INFO:tensorflow:Graph was finalized.
+2018-09-30 19:37:41.055780: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2018-09-30 19:37:41.055894: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-09-30 19:37:41.055991: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2018-09-30 19:37:41.056069: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2018-09-30 19:37:41.056242: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 5774 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1060 6GB, pci bus id: 0000:01:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt-49000
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Evaluation [10/100]
+INFO:tensorflow:Evaluation [20/100]
+INFO:tensorflow:Evaluation [30/100]
+INFO:tensorflow:Evaluation [40/100]
+INFO:tensorflow:Evaluation [50/100]
+INFO:tensorflow:Evaluation [60/100]
+INFO:tensorflow:Evaluation [70/100]
+INFO:tensorflow:Finished evaluation at 2018-09-30-11:38:03
+INFO:tensorflow:Saving dict for global step 49000: global_step = 49000, loss = 2.1636677, metrics-my_translate_ende_wmt32k/targets/accuracy = 0.60228103, metrics-my_translate_ende_wmt32k/targets/accuracy_per_sequence = 0.009333333, metrics-my_translate_ende_wmt32k/targets/accuracy_top5 = 0.7935016, metrics-my_translate_ende_wmt32k/targets/approx_bleu_score = 0.3062201, metrics-my_translate_ende_wmt32k/targets/neg_log_perplexity = -2.1582856, metrics-my_translate_ende_wmt32k/targets/rouge_2_fscore = 0.3798123, metrics-my_translate_ende_wmt32k/targets/rouge_L_fscore = 0.5800523
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 49000: /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt-49000
+INFO:tensorflow:global_step/sec: 1.33039
+INFO:tensorflow:loss = 2.4928305, step = 49000 (75.166 sec)
+INFO:tensorflow:global_step/sec: 2.6648
+INFO:tensorflow:loss = 1.8346308, step = 49100 (37.527 sec)
+INFO:tensorflow:global_step/sec: 2.63992
+INFO:tensorflow:loss = 2.1675498, step = 49200 (37.880 sec)
+INFO:tensorflow:global_step/sec: 2.61424
+INFO:tensorflow:loss = 2.4409387, step = 49300 (38.252 sec)
+INFO:tensorflow:global_step/sec: 2.59717
+INFO:tensorflow:loss = 1.9200537, step = 49400 (38.504 sec)
+INFO:tensorflow:global_step/sec: 2.60488
+INFO:tensorflow:loss = 2.3505225, step = 49500 (38.390 sec)
+INFO:tensorflow:global_step/sec: 2.62652
+INFO:tensorflow:loss = 2.369118, step = 49600 (38.072 sec)
+INFO:tensorflow:global_step/sec: 2.63984
+INFO:tensorflow:loss = 1.4469274, step = 49700 (37.881 sec)
+INFO:tensorflow:global_step/sec: 2.61966
+INFO:tensorflow:loss = 2.4823678, step = 49800 (38.173 sec)
+INFO:tensorflow:global_step/sec: 2.62681
+INFO:tensorflow:loss = 2.4381802, step = 49900 (38.069 sec)
+INFO:tensorflow:Saving checkpoints for 50000 into /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt.
+INFO:tensorflow:Skip the current checkpoint eval due to throttle secs (600 secs).
+INFO:tensorflow:global_step/sec: 2.29022
+INFO:tensorflow:loss = 1.8383424, step = 50000 (43.663 sec)
+INFO:tensorflow:global_step/sec: 2.66349
+INFO:tensorflow:loss = 2.5603876, step = 50100 (37.545 sec)
+INFO:tensorflow:global_step/sec: 2.58832
+INFO:tensorflow:loss = 2.0656435, step = 50200 (38.635 sec)
+INFO:tensorflow:global_step/sec: 2.58442
+INFO:tensorflow:loss = 1.8868012, step = 50300 (38.694 sec)
+INFO:tensorflow:global_step/sec: 2.53284
+INFO:tensorflow:loss = 2.0266538, step = 50400 (39.481 sec)
+INFO:tensorflow:global_step/sec: 2.56825
+INFO:tensorflow:loss = 2.4993396, step = 50500 (38.937 sec)
+INFO:tensorflow:global_step/sec: 2.59853
+INFO:tensorflow:loss = 2.394846, step = 50600 (38.483 sec)
+INFO:tensorflow:global_step/sec: 2.60095
+INFO:tensorflow:loss = 3.4278338, step = 50700 (38.448 sec)
+INFO:tensorflow:global_step/sec: 2.58069
+INFO:tensorflow:loss = 1.9351212, step = 50800 (38.749 sec)
+INFO:tensorflow:global_step/sec: 2.59663
+INFO:tensorflow:loss = 2.0787601, step = 50900 (38.512 sec)
+INFO:tensorflow:Saving checkpoints for 51000 into /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt.
+INFO:tensorflow:Reading data files from /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-dev*
+INFO:tensorflow:partition: 0 num_data_files: 1
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Setting T2TModel mode to 'eval'
+INFO:tensorflow:Setting hparams.dropout to 0.0
+INFO:tensorflow:Setting hparams.label_smoothing to 0.0
+INFO:tensorflow:Setting hparams.layer_prepostprocess_dropout to 0.0
+INFO:tensorflow:Setting hparams.symbol_dropout to 0.0
+INFO:tensorflow:Setting hparams.attention_dropout to 0.0
+INFO:tensorflow:Setting hparams.relu_dropout to 0.0
+INFO:tensorflow:Using variable initializer: uniform_unit_scaling
+INFO:tensorflow:Transforming feature 'inputs' with symbol_modality_33510_512.bottom
+INFO:tensorflow:Transforming 'targets' with symbol_modality_33510_512.targets_bottom
+INFO:tensorflow:Building model body
+INFO:tensorflow:Transforming body output with symbol_modality_33510_512.top
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-09-30-11:51:11
+INFO:tensorflow:Graph was finalized.
+2018-09-30 19:51:11.374041: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2018-09-30 19:51:11.374171: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-09-30 19:51:11.374256: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2018-09-30 19:51:11.374335: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2018-09-30 19:51:11.374511: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 5774 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1060 6GB, pci bus id: 0000:01:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt-51000
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Evaluation [10/100]
+INFO:tensorflow:Evaluation [20/100]
+INFO:tensorflow:Evaluation [30/100]
+INFO:tensorflow:Evaluation [40/100]
+INFO:tensorflow:Evaluation [50/100]
+INFO:tensorflow:Evaluation [60/100]
+INFO:tensorflow:Evaluation [70/100]
+INFO:tensorflow:Finished evaluation at 2018-09-30-11:51:33
+INFO:tensorflow:Saving dict for global step 51000: global_step = 51000, loss = 2.1560113, metrics-my_translate_ende_wmt32k/targets/accuracy = 0.6039222, metrics-my_translate_ende_wmt32k/targets/accuracy_per_sequence = 0.009, metrics-my_translate_ende_wmt32k/targets/accuracy_top5 = 0.7957331, metrics-my_translate_ende_wmt32k/targets/approx_bleu_score = 0.30340192, metrics-my_translate_ende_wmt32k/targets/neg_log_perplexity = -2.1503985, metrics-my_translate_ende_wmt32k/targets/rouge_2_fscore = 0.37995225, metrics-my_translate_ende_wmt32k/targets/rouge_L_fscore = 0.58035135
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 51000: /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt-51000
+INFO:tensorflow:global_step/sec: 1.31895
+INFO:tensorflow:loss = 2.5457168, step = 51000 (75.818 sec)
+INFO:tensorflow:global_step/sec: 2.62069
+INFO:tensorflow:loss = 2.3266642, step = 51100 (38.158 sec)
+INFO:tensorflow:global_step/sec: 2.64823
+INFO:tensorflow:loss = 2.1701658, step = 51200 (37.761 sec)
+INFO:tensorflow:global_step/sec: 2.61642
+INFO:tensorflow:loss = 2.2798522, step = 51300 (38.221 sec)
+INFO:tensorflow:global_step/sec: 2.62237
+INFO:tensorflow:loss = 2.2562637, step = 51400 (38.133 sec)
+INFO:tensorflow:global_step/sec: 2.65306
+INFO:tensorflow:loss = 1.8917234, step = 51500 (37.692 sec)
+INFO:tensorflow:global_step/sec: 2.63461
+INFO:tensorflow:loss = 2.4734454, step = 51600 (37.956 sec)
+INFO:tensorflow:global_step/sec: 2.63849
+INFO:tensorflow:loss = 1.7368909, step = 51700 (37.901 sec)
+INFO:tensorflow:global_step/sec: 2.64673
+INFO:tensorflow:loss = 2.1326447, step = 51800 (37.782 sec)
+INFO:tensorflow:global_step/sec: 2.64549
+INFO:tensorflow:loss = 2.4859025, step = 51900 (37.800 sec)
+INFO:tensorflow:Saving checkpoints for 52000 into /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt.
+INFO:tensorflow:Skip the current checkpoint eval due to throttle secs (600 secs).
+INFO:tensorflow:global_step/sec: 2.303
+INFO:tensorflow:loss = 2.2214797, step = 52000 (43.422 sec)
+INFO:tensorflow:global_step/sec: 2.65554
+INFO:tensorflow:loss = 1.9265958, step = 52100 (37.658 sec)
+INFO:tensorflow:global_step/sec: 2.61197
+INFO:tensorflow:loss = 2.014985, step = 52200 (38.285 sec)
+INFO:tensorflow:global_step/sec: 2.64591
+INFO:tensorflow:loss = 2.7371044, step = 52300 (37.794 sec)
+INFO:tensorflow:global_step/sec: 2.64133
+INFO:tensorflow:loss = 3.0603628, step = 52400 (37.860 sec)
+INFO:tensorflow:global_step/sec: 2.57514
+INFO:tensorflow:loss = 2.024205, step = 52500 (38.833 sec)
+INFO:tensorflow:global_step/sec: 2.64491
+INFO:tensorflow:loss = 2.4226856, step = 52600 (37.808 sec)
+INFO:tensorflow:global_step/sec: 2.64332
+INFO:tensorflow:loss = 2.0115244, step = 52700 (37.831 sec)
+INFO:tensorflow:global_step/sec: 2.64694
+INFO:tensorflow:loss = 2.3515165, step = 52800 (37.780 sec)
+INFO:tensorflow:global_step/sec: 2.64625
+INFO:tensorflow:loss = 1.5862626, step = 52900 (37.790 sec)
+INFO:tensorflow:Saving checkpoints for 53000 into /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt.
+INFO:tensorflow:Reading data files from /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-dev*
+INFO:tensorflow:partition: 0 num_data_files: 1
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Setting T2TModel mode to 'eval'
+INFO:tensorflow:Setting hparams.dropout to 0.0
+INFO:tensorflow:Setting hparams.label_smoothing to 0.0
+INFO:tensorflow:Setting hparams.layer_prepostprocess_dropout to 0.0
+INFO:tensorflow:Setting hparams.symbol_dropout to 0.0
+INFO:tensorflow:Setting hparams.attention_dropout to 0.0
+INFO:tensorflow:Setting hparams.relu_dropout to 0.0
+INFO:tensorflow:Using variable initializer: uniform_unit_scaling
+INFO:tensorflow:Transforming feature 'inputs' with symbol_modality_33510_512.bottom
+INFO:tensorflow:Transforming 'targets' with symbol_modality_33510_512.targets_bottom
+INFO:tensorflow:Building model body
+INFO:tensorflow:Transforming body output with symbol_modality_33510_512.top
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-09-30-12:04:31
+INFO:tensorflow:Graph was finalized.
+2018-09-30 20:04:32.314538: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2018-09-30 20:04:32.314652: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-09-30 20:04:32.314725: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2018-09-30 20:04:32.314806: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2018-09-30 20:04:32.315027: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 5774 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1060 6GB, pci bus id: 0000:01:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt-53000
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Evaluation [10/100]
+INFO:tensorflow:Evaluation [20/100]
+INFO:tensorflow:Evaluation [30/100]
+INFO:tensorflow:Evaluation [40/100]
+INFO:tensorflow:Evaluation [50/100]
+INFO:tensorflow:Evaluation [60/100]
+INFO:tensorflow:Evaluation [70/100]
+INFO:tensorflow:Finished evaluation at 2018-09-30-12:04:55
+INFO:tensorflow:Saving dict for global step 53000: global_step = 53000, loss = 2.134942, metrics-my_translate_ende_wmt32k/targets/accuracy = 0.6059765, metrics-my_translate_ende_wmt32k/targets/accuracy_per_sequence = 0.009333333, metrics-my_translate_ende_wmt32k/targets/accuracy_top5 = 0.79768115, metrics-my_translate_ende_wmt32k/targets/approx_bleu_score = 0.30633703, metrics-my_translate_ende_wmt32k/targets/neg_log_perplexity = -2.1301687, metrics-my_translate_ende_wmt32k/targets/rouge_2_fscore = 0.3829441, metrics-my_translate_ende_wmt32k/targets/rouge_L_fscore = 0.5837794
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 53000: /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt-53000
+INFO:tensorflow:global_step/sec: 1.32711
+INFO:tensorflow:loss = 2.0106394, step = 53000 (75.352 sec)
+INFO:tensorflow:global_step/sec: 2.69046
+INFO:tensorflow:loss = 2.0053966, step = 53100 (37.168 sec)
+INFO:tensorflow:global_step/sec: 2.66481
+INFO:tensorflow:loss = 2.9808195, step = 53200 (37.527 sec)
+INFO:tensorflow:global_step/sec: 2.60813
+INFO:tensorflow:loss = 1.8846807, step = 53300 (38.341 sec)
+INFO:tensorflow:global_step/sec: 2.64703
+INFO:tensorflow:loss = 1.9749211, step = 53400 (37.778 sec)
+INFO:tensorflow:global_step/sec: 2.64559
+INFO:tensorflow:loss = 2.1112185, step = 53500 (37.799 sec)
+INFO:tensorflow:global_step/sec: 2.65121
+INFO:tensorflow:loss = 2.2048357, step = 53600 (37.719 sec)
+INFO:tensorflow:global_step/sec: 2.64632
+INFO:tensorflow:loss = 1.9056848, step = 53700 (37.788 sec)
+INFO:tensorflow:global_step/sec: 2.65302
+INFO:tensorflow:loss = 1.9298718, step = 53800 (37.692 sec)
+INFO:tensorflow:global_step/sec: 2.62838
+INFO:tensorflow:loss = 2.1685898, step = 53900 (38.046 sec)
+INFO:tensorflow:Saving checkpoints for 54000 into /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt.
+INFO:tensorflow:Skip the current checkpoint eval due to throttle secs (600 secs).
+INFO:tensorflow:global_step/sec: 2.2976
+INFO:tensorflow:loss = 2.5510323, step = 54000 (43.524 sec)
+INFO:tensorflow:global_step/sec: 2.6207
+INFO:tensorflow:loss = 1.9938112, step = 54100 (38.158 sec)
+INFO:tensorflow:global_step/sec: 2.6521
+INFO:tensorflow:loss = 1.6247303, step = 54200 (37.706 sec)
+INFO:tensorflow:global_step/sec: 2.63352
+INFO:tensorflow:loss = 2.033984, step = 54300 (37.972 sec)
+INFO:tensorflow:global_step/sec: 2.65718
+INFO:tensorflow:loss = 1.7355224, step = 54400 (37.634 sec)
+INFO:tensorflow:global_step/sec: 2.6529
+INFO:tensorflow:loss = 2.1843681, step = 54500 (37.694 sec)
+INFO:tensorflow:global_step/sec: 2.64483
+INFO:tensorflow:loss = 3.0185382, step = 54600 (37.810 sec)
+INFO:tensorflow:global_step/sec: 2.64979
+INFO:tensorflow:loss = 2.027873, step = 54700 (37.739 sec)
+INFO:tensorflow:global_step/sec: 2.64974
+INFO:tensorflow:loss = 2.7610385, step = 54800 (37.740 sec)
+INFO:tensorflow:global_step/sec: 2.63913
+INFO:tensorflow:loss = 2.668446, step = 54900 (37.891 sec)
+INFO:tensorflow:Saving checkpoints for 55000 into /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt.
+INFO:tensorflow:Reading data files from /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_data/my_translate_ende_wmt32k-dev*
+INFO:tensorflow:partition: 0 num_data_files: 1
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Setting T2TModel mode to 'eval'
+INFO:tensorflow:Setting hparams.dropout to 0.0
+INFO:tensorflow:Setting hparams.label_smoothing to 0.0
+INFO:tensorflow:Setting hparams.layer_prepostprocess_dropout to 0.0
+INFO:tensorflow:Setting hparams.symbol_dropout to 0.0
+INFO:tensorflow:Setting hparams.attention_dropout to 0.0
+INFO:tensorflow:Setting hparams.relu_dropout to 0.0
+INFO:tensorflow:Using variable initializer: uniform_unit_scaling
+INFO:tensorflow:Transforming feature 'inputs' with symbol_modality_33510_512.bottom
+INFO:tensorflow:Transforming 'targets' with symbol_modality_33510_512.targets_bottom
+INFO:tensorflow:Building model body
+INFO:tensorflow:Transforming body output with symbol_modality_33510_512.top
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-09-30-12:17:51
+INFO:tensorflow:Graph was finalized.
+2018-09-30 20:17:51.660123: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2018-09-30 20:17:51.660240: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-09-30 20:17:51.660339: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2018-09-30 20:17:51.660417: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2018-09-30 20:17:51.660595: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 5774 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1060 6GB, pci bus id: 0000:01:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt-55000
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Evaluation [10/100]
+INFO:tensorflow:Evaluation [20/100]
+INFO:tensorflow:Evaluation [30/100]
+INFO:tensorflow:Evaluation [40/100]
+INFO:tensorflow:Evaluation [50/100]
+INFO:tensorflow:Evaluation [60/100]
+INFO:tensorflow:Evaluation [70/100]
+INFO:tensorflow:Finished evaluation at 2018-09-30-12:18:14
+INFO:tensorflow:Saving dict for global step 55000: global_step = 55000, loss = 2.1315858, metrics-my_translate_ende_wmt32k/targets/accuracy = 0.60799545, metrics-my_translate_ende_wmt32k/targets/accuracy_per_sequence = 0.008, metrics-my_translate_ende_wmt32k/targets/accuracy_top5 = 0.79890907, metrics-my_translate_ende_wmt32k/targets/approx_bleu_score = 0.3044452, metrics-my_translate_ende_wmt32k/targets/neg_log_perplexity = -2.124335, metrics-my_translate_ende_wmt32k/targets/rouge_2_fscore = 0.38193706, metrics-my_translate_ende_wmt32k/targets/rouge_L_fscore = 0.58372265
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 55000: /home/lixiaolong2/桌面/disk1/practise/t2t_transformer_learn/t2t_train/my_translate_ende_wmt32k/my_transformer-transformer_base_single_gpu/model.ckpt-55000
+INFO:tensorflow:global_step/sec: 1.32772
+INFO:tensorflow:loss = 1.7516934, step = 55000 (75.317 sec)
+INFO:tensorflow:global_step/sec: 2.69876
+INFO:tensorflow:loss = 2.807515, step = 55100 (37.055 sec)
+INFO:tensorflow:global_step/sec: 2.68561
+INFO:tensorflow:loss = 2.5215979, step = 55200 (37.234 sec)
+INFO:tensorflow:global_step/sec: 2.64942
+INFO:tensorflow:loss = 2.0003955, step = 55300 (37.744 sec)
+INFO:tensorflow:global_step/sec: 2.64772
+INFO:tensorflow:loss = 2.7042527, step = 55400 (37.768 sec)
+INFO:tensorflow:global_step/sec: 2.64121
+INFO:tensorflow:loss = 2.5896914, step = 55500 (37.862 sec)
