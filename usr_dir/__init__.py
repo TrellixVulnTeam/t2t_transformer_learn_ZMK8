@@ -8,5 +8,5 @@ from __future__ import print_function
 
 
 
-from . import my_translate_ende
+from . import my_translate_enzh_wmt
 from . import my_transformer

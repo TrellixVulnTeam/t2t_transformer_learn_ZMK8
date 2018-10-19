@@ -13,5 +13,4 @@ base_dir=`echo ${base_dir#*/}`
 mkdir -p log/$base_dir/$sh_file/${Time}
 log_file=log/$base_dir/$sh_file/${Time}/log.txt
 #nohup bash scripts/gather.sh >${log_file} 2>&1 &
-#nohup bash $1 >${log_file} 2>&1 &
-bash $1 >${log_file} 2>&1 &
+nohup bash $1 >${log_file} 2>&1 &

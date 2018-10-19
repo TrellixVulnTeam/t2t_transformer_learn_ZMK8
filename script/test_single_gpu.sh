@@ -6,8 +6,8 @@ HPARAMS=my_transformer_base_single_gpu
 
 HOME=`pwd`
 USR_DIR=$HOME/usr_dir
-DATA_DIR=$HOME/t2t_data
-TMP_DIR=$DATA_DIR
+DATA_DIR=$HOME/raw_data
+TMP_DIR=$HOME/t2t_gen
 TRAIN_DIR=$HOME/t2t_train/$PROBLEM/$MODEL-$HPARAMS
 
 mkdir -p $DATA_DIR $TMP_DIR $TRAIN_DIR
